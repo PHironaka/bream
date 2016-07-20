@@ -26,6 +26,7 @@ file:
 - "/uploads/IMG_5229.jpg"
 city: "@NikeSF"
 background_color: "#efff68"
+city-name: Los Angeles
 layout: post
 ---
 
