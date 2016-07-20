@@ -11,6 +11,9 @@ new-followers: 178
 views: '2,400'
 impressions: 3 million
 tweets: 
+assets:
+- "/uploads/url.jpg"
+- "/uploads/url.jpg"
 layout: post
 ---
 
