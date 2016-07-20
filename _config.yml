@@ -1,0 +1,25 @@
+---
+title: Peter Hironaka
+timezone: UTC
+collections:
+  LA:
+    title: LA
+    output: true
+  posts:
+    title: Posts
+    output: true
+  sf:
+    title: SF
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: your-email@domain.com
+description: |
+  Nike West Internal Productions.
+baseurl: 
+url: http://yourdomain.com
+twitter_username: peterhironaka
+github_username: phironaka
+markdown: kramdown
+permalink: pretty
