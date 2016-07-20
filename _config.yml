@@ -5,6 +5,7 @@ collections:
   LA:
     title: LA
     output: true
+    city-img: IMG_5229.jpg
   posts:
     title: Posts
     output: true
