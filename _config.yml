@@ -5,7 +5,7 @@ collections:
   la:
     title: LA
     output: true
-    photo: IMG_5229.jpg
+    description: IMG_5229.jpg
   posts:
     title: Posts
     output: true
