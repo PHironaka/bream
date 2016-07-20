@@ -11,8 +11,6 @@ new-followers: 178
 views: '2,400'
 impressions: 3 million
 tweets: 
-photos:
-  img: url.jpg
 layout: post
 ---
 
