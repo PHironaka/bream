@@ -11,7 +11,7 @@ collections:
   la:
     title: la
     output: true
-    photo: IMG_5229.jpg
+    list: hero
   sf:
     title: sf
     output: true
