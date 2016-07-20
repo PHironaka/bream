@@ -7,8 +7,7 @@ layout: default
 </div>
 
 
-    {% for work in site.LA %}
-{% if LA.categories contains 'hero' limit:3 %}
+    {% for la in site.LA limit:2 %}
   <div class="post-list">
 
     <div class="post-img">
@@ -31,7 +30,4 @@ layout: default
       </div>
 
   </div>
-  {% endif %}
 {% endfor %}
-
-  
