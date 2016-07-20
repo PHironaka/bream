@@ -7,27 +7,23 @@ layout: default
 </div>
 
 
+
+  <div class="event-list">
+    <div class="wrapper">
+<h1> Latest Events </h1>
+</div>
     {% for la in site.LA limit:2 %}
-  <div class="post-list">
-
-    <div class="post-img">
-
-      <img src="/uploads/{{ LA.city-img }}">
 
 
-    </div>
-
-    <div class="post-copy">
-
+    <div class="event-copy" style="background-image: url(/uploads/{{ la.img }});">
+  <div class="wrapper">
         <h2>
-          <a class="post-link" href="{{ la.link }}">{{ la.title }}</a>
+          <a class="event-link" href="{{ la.url }}">{{ la.title }}</a>
         </h2>
 
-        <p>
-        {{ la.excerpt }}
-        </p>
+        <p class="post-meta"><time datetime="{{ la.date | date_to_xmlschema }}" itemprop="datePublished">{{ la.date | date: "%b %-d, %Y" }}</time>{% if la.author %} • <span itemprop="name">{{ la.author }}</span></span>{% endif %}</p>
 
+</div>
       </div>
-
-  </div>
 {% endfor %}
+  </div>

@@ -8,29 +8,7 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
     </div>
 
-    <footer class="site-footer">
-        <div class="wrapper">
-          <p> Site built with Jekyll. Content Management by Siteleaf. Fonts used are Open Sans. Designed in Sketch. Built with <span>	&hearts; </span> in Venice.
-
-    <p> &#169; Peter Hironaka 2016 </p>
-      </div>
-    </footer>
-
-  </body>
-
-
-  <script src="/js/all.js"></script>
-  <script src="/js/exampleUsage.js"></script>
-  <script>
-  $('.right').click(function() {
-     $(this).toggleClass('active');
-     $('#overlay').toggleClass('open');
-    });
-  </script>
-
-</html>
+{% include footer.html %}
