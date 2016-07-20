@@ -1,6 +1,7 @@
 ---
 title: How To Make a Sneaker with Benjamin B. Trollins
 date: 2016-07-13 16:48:00 Z
+position: 2
 archive: archive
 ---
 
