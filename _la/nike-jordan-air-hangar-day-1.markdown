@@ -1,5 +1,5 @@
 ---
-title: 'Nike+ Jordan Air Hangar: Day 1'
+title: Nike+ Jordan Air Hangar
 date: 2016-07-09 16:51:00 Z
 categories:
 - hero
