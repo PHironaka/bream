@@ -11,7 +11,7 @@ new-followers: 178
 views: '2,400'
 impressions: 3 million
 tweets: 
-assets:
+file:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/IMG_5229.jpg"
 layout: post
