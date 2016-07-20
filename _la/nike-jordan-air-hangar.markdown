@@ -12,12 +12,7 @@ views: '2,400'
 impressions: 3 million
 tweets: 
 photos:
-- url.jpg
-- url.jpg
-- url.jpg
-- url.jpg
-- url.jpg
-- url.jpg
+  img: url.jpg
 layout: post
 ---
 
