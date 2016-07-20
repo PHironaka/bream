@@ -22,6 +22,8 @@ file:
 - "/uploads/IMG_5229.jpg"
 - "/uploads/IMG_5229.jpg"
 - "/uploads/IMG_5229.jpg"
+- "/uploads/IMG_5229.jpg"
+- "/uploads/IMG_5229.jpg"
 layout: post
 ---
 
