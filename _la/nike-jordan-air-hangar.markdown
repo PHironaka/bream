@@ -5,7 +5,7 @@ categories:
 - hero
 position: 0
 img: IMG_5229.jpg
-link: 
+city-page: 
 layout: post
 ---
 
