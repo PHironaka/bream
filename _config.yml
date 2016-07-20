@@ -2,10 +2,6 @@
 title: Peter Hironaka
 timezone: UTC
 collections:
-  la:
-    title: LA
-    output: true
-    photo: IMG_5229.jpg
   posts:
     title: Posts
     output: true
@@ -15,6 +11,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  la:
+    title: city-la
+    output: true
+    photo: IMG_5229.jpg
 email: your-email@domain.com
 description: Nike West Event Recaps.
 baseurl: 
