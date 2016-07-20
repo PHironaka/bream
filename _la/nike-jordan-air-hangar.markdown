@@ -27,6 +27,7 @@ file:
 city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
+color: "#efff68"
 layout: post
 ---
 
