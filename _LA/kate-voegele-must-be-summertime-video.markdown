@@ -4,7 +4,7 @@ date: 2016-07-09 16:51:00 Z
 categories:
 - hero
 img: kvoegele.jpg
-link: http://www.miru.world/
+link: 
 layout: post
 ---
 
