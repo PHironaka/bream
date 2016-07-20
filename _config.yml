@@ -2,10 +2,10 @@
 title: Peter Hironaka
 timezone: UTC
 collections:
-  LA:
+  la:
     title: LA
     output: true
-    city-img: IMG_5229.jpg
+    photo: IMG_5229.jpg
   posts:
     title: Posts
     output: true
