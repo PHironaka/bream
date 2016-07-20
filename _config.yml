@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
   la:
-    title: city-la
+    title: la
     output: true
     photo: IMG_5229.jpg
   sf:
