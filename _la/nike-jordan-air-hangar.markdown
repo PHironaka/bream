@@ -25,6 +25,7 @@ file:
 - "/uploads/IMG_5229.jpg"
 - "/uploads/IMG_5229.jpg"
 city: "@NikeSF"
+background_color: "#444"
 layout: post
 ---
 
