@@ -11,7 +11,7 @@ collections:
   la:
     title: la
     output: true
-    list: hero
+    list: list
   sf:
     title: sf
     output: true
