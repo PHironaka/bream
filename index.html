@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+<h1>{{ site.description }}</h1>
+</div>
+
+
+    {% for work in site.LA %}
+{% if LA.categories contains 'hero' limit:3 %}
+  <div class="post-list">
+
+    <div class="post-img">
+
+      <img src="/uploads/{{ LA.img }}">
+
+
+    </div>
+
+    <div class="post-copy">
+
+        <h2>
+          <a class="post-link" href="{{ LA.link }}">{{ LA.title }}</a>
+        </h2>
+
+        <p>
+        {{ LA.excerpt }}
+        </p>
+
+      </div>
+
+  </div>
+  {% endif %}
+{% endfor %}
+
+  
