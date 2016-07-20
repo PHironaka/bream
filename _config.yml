@@ -13,7 +13,7 @@ collections:
     output: true
     photo: IMG_5229.jpg
   sf:
-    title: city-sf
+    title: sf
     output: true
 email: your-email@domain.com
 description: Nike West Event Recaps.
