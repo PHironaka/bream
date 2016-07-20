@@ -5,7 +5,7 @@ categories:
 - hero
 position: 0
 img: IMG_5229.jpg
-city-page: IMG_5229.jpg
+city-page: iphone5s_gold_portrait.png
 layout: post
 ---
 
