@@ -5,7 +5,6 @@ collections:
   influencers:
     title: La/Influencers
     output: true
-    permalink: La/Influencers
   posts:
     title: Posts
     output: true
