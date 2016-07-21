@@ -13,7 +13,7 @@ impressions: 3 million
 tweets: 
 file:
 - "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0030.JPG"
+- "/uploads/IMG_0024.JPG"
 - "/uploads/IMG_0029.JPG"
 - "/uploads/IMG_0028.JPG"
 - "/uploads/IMG_0027.JPG"
