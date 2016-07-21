@@ -2,7 +2,7 @@
 title: Nike West - Event Recaps
 timezone: UTC
 collections:
-  sf-influencers:
+  influencers:
     title: Influencers
     output: true
   posts:
