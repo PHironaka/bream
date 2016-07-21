@@ -31,6 +31,10 @@ padding: 1em 0;
     margin:1em 0;
   @include span-columns(1);
 
+  @media screen and (max-width: $break-small) {
+      @include span-columns(2);
+    }
+
     &,
     &:visited {
         color: $grey-color-dark;
@@ -224,7 +228,16 @@ margin-bottom: 1em;
 
     h1 {
       font-size: 4em;
-    
+      line-height: 1;
+
+      @media screen and (max-width: $break-large) {
+        font-size: 3em;
+        }
+
+        @media screen and (max-width: $break-small) {
+          font-size: 2em;
+          }
+
     }
 
     h2 {
@@ -287,6 +300,11 @@ margin-bottom: 1em;
     @include span-columns(5);
     @include shift(1);
     padding: 2em 0;
+
+    @media screen and (max-width: $break-large) {
+      width: 100%;
+      margin: 0;
+      }
 }
 
 .event-overview {
@@ -318,6 +336,10 @@ width: 24.23176%;
   @include span-columns(6);
     margin-bottom: $spacing-unit;
     padding: 2em 0;
+    @media screen and (max-width: $break-large) {
+      width: 100%;
+      margin: 0;
+      }
 
     h2 {
       font-size:1.5em;
