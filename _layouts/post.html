@@ -41,7 +41,15 @@ layout: default
 
 <div class="event-tweets">
 <h1>{{ page.city }} Consumer Sentiment </h1>
-<div id="ph-tweets"></div>
+
+
+<div id="user-tweets">
+</div>
+<div class="user-instas">
+  {% for asset in page.asset %}
+<img src="{{ asset }}">
+{% endfor %}
+</div>
 </div>
 
 

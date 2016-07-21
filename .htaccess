@@ -1,5 +1,0 @@
-AuthName "This site is protected with a password"
-AuthType Basic
-AuthUserFile /customers/c/8/e/http://viridian-mandevilla-9cf0.siteleaf.net/httpd.www/.htpasswd
-AuthGroupFile /dev/null 
-require valid-user
