@@ -10,14 +10,14 @@ layout: default
 <h1> LA </h1>
   {% for la in site.la %}
       <section>
-          <h1><a href="{{ la.url }}">{{ la.title }}</a></h1>
+          <a href="{{ la.url }}">{{ la.title }}</a>
       </section>
     {% endfor %}
 
     <h1> SF </h1>
       {% for sf in site.sf %}
           <section>
-              <h1><a href="{{ sf.url }}">{{ sf.title }}</a></h1>
+              <a href="{{ sf.url }}">{{ sf.title }}</a>
           </section>
         {% endfor %}
   </div>
