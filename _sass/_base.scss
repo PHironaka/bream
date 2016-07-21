@@ -187,6 +187,12 @@ overflow: hidden;
  */
 .home {
 @include outer-container;
+
+  img {
+    width: 6em;
+margin: 3em auto;
+display: block;
+  }
   h1 {
     margin: 0 0 3em;
     font-size: 2.1em;
