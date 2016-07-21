@@ -12,7 +12,7 @@ views: '2,400'
 impressions: 3 million
 tweets: 
 file:
-- "/uploads/IMG_0003.JPG"
+- "/uploads/IMG_0024.JPG"
 - "/uploads/IMG_0030.JPG"
 - "/uploads/IMG_0029.JPG"
 - "/uploads/IMG_0028.JPG"
@@ -20,10 +20,10 @@ file:
 - "/uploads/IMG_0026.JPG"
 - "/uploads/IMG_0025.JPG"
 - "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0025.JPG"
-- "/uploads/IMG_0025.JPG"
-- "/uploads/IMG_0025.JPG"
-- "/uploads/IMG_0025.JPG"
+- "/uploads/IMG_0022.JPG"
+- "/uploads/IMG_0021.JPG"
+- "/uploads/IMG_0020.JPG"
+- "/uploads/IMG_0019.JPG"
 city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
