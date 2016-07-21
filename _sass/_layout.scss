@@ -3,8 +3,6 @@
  */
 .site-header {
   @include outer-container;
-    min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -18,13 +16,18 @@ padding: 2em 0;
               li {
                 display: inline;
                 margin: 2em;
+
+                a {
+                  font-weight: $header-font-weight;
+                  font-size: 1.1em;
+                }
               }
             }
        }
 }
 
 .site-title {
-    margin:2em 0;
+    margin:1em 0;
   @include span-columns(2);
 
     &,
@@ -107,8 +110,8 @@ padding: 2em 0;
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+        margin: 3em 0 0;
 }
 
 .footer-heading {
@@ -178,6 +181,13 @@ padding: 2em 0;
  */
 .page-content {
     padding: 0;
+
+    .post-color {
+      width: 25px;
+height: 25px;
+float: left;
+margin: 6px 14px 0 0;
+    }
 }
 
 .page-heading {
@@ -185,11 +195,12 @@ padding: 2em 0;
     font-weight: $header-font-weight;
 }
 
-.event-list {
+.event-list, .event-tweets {
 @include outer-container;
 margin-bottom: 1em;
-
 }
+
+
 
 .event-img {
     @include span-columns(6);
@@ -208,6 +219,7 @@ margin-bottom: 1em;
   -o-background-size: cover;
   position: relative;
   top: 0;
+  padding: 3em 0;
 
     h2 {
       font-weight: $header-font-weight;
@@ -266,11 +278,41 @@ margin-bottom: 1em;
     padding-top: 1em;
 }
 
+.event-city-page {
+    @include span-columns(5);
+    @include shift(1);
+    padding: 2em 0;
+}
+
+.event-overview {
+  @include outer-container;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3em;
+}
+
+.event-photos {
+  @include outer-container;
+  border-top: 1px solid #eee;
+  padding-top: 2em;
+
+    img {
+      float: left;
+display: block;
+width: 24.23176%;
+
+@media screen and (max-width: $break-large) {
+  width: 100%;
+  margin: 1em 0;
+  }
+
+    }
+}
 
 
-.event-content, .work-content {
-  @include span-columns(9);
+.event-content {
+  @include span-columns(6);
     margin-bottom: $spacing-unit;
+    padding: 2em 0;
 
     h2 {
       font-size:1.5em;

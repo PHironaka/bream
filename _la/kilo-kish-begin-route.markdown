@@ -2,6 +2,7 @@
 title: Kilo Kish "Begin Route"
 date: 2016-07-13 16:49:00 Z
 position: 1
+category: 'hero'
 archive: archive
 ---
 

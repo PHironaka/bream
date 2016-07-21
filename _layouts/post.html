@@ -2,17 +2,60 @@
 layout: default
 ---
 
-<article class="post" >
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+<div class="event-copy" style="background-image: url(/uploads/{{ page.img }});" >
+  <div class="wrapper">
 
-  <div class="post-content" itemprop="articleBody">
+      <div class="post-color" style=" background:{{page.color}};">
+
+      </div>
+      <h2> {{ page.city-name }}</h2>
+
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+
+    </div>
+</div>
+<div class="wrapper">
+
+  <div class="event-overview">
+
+  <div class="event-content" itemprop="articleBody">
     {{ content }}
+
+
+    <div class="event-engagement">
+      <h1>Impressions</h1>
+      <p>{{ page.impressions }}</p>
+
+      <h1>City Page Views</h1>
+      <p>{{ page.views }}</p>
+
+      <h1>Engagment Rate</h1>
+      <p>{{ page.engagement }}</p>
+
+      <h1>New Followers </h1>
+      <p>{{ page.new-followers }}</p>
+
+    </div>
+      </div>
+
+<div class="event-city-page">
+<img src="/uploads/{{ page.city-page }}">
+</div>
+</div>
+
+<div class="event-tweets">
+<h1>{{ page.city }} Consumer Sentiment </h1>
+<div id="ph-tweets"></div>
+</div>
+
+
+<div class="event-photos">
+  <h1>Event Photos </h1>
+
+  {% for file in page.file %}
+<img src="{{ file }}">
+{% endfor %}
+</div>
+
   </div>
-
-</article>
-
-{% include pagination.html %}

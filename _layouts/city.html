@@ -2,10 +2,22 @@
 layout: default
 ---
 
+<div class="wrapper">
   {{ content }}
 
-  {% for collection in site.collections %}
+
+
+<h1> LA </h1>
+  {% for la in site.la %}
       <section>
-          <h1><a href="{{ collection.directory }}">{{ collection.title }}</a></h1>
+          <h1><a href="{{ la.url }}">{{ la.title }}</a></h1>
       </section>
-  {% endfor %}
+    {% endfor %}
+
+    <h1> SF </h1>
+      {% for sf in site.sf %}
+          <section>
+              <h1><a href="{{ sf.url }}">{{ sf.title }}</a></h1>
+          </section>
+        {% endfor %}
+  </div>
