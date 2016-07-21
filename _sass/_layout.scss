@@ -2,16 +2,30 @@
  * Site header
  */
 .site-header {
+  @include outer-container;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+       nav {
+         @include span-columns(6);
+@include shift(4);
+padding: 2em 0;
+
+            ul {
+              text-align: right;
+              li {
+                display: inline;
+                margin: 2em;
+              }
+            }
+       }
 }
 
 .site-title {
     margin:2em 0;
-    float: left;
-    width: 7em;
+  @include span-columns(2);
 
     &,
     &:visited {
@@ -171,26 +185,40 @@
     font-weight: $header-font-weight;
 }
 
-.post-list {
+.event-list {
 @include outer-container;
 margin-bottom: 1em;
 
 }
 
-.post-img {
+.event-img {
     @include span-columns(6);
 }
-.post-copy {
-  @include span-columns(5);
-  padding: 0 1em;
+.event-copy {
+  vertical-align: middle;
+  min-height: 406px;
+  height: 44vh;
+  width: 100%;
+  max-height: 742px;
+  background-position: center center;
+  background-size: cover;
+  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+  top: 0;
 
     h2 {
       font-weight: $header-font-weight;
       font-size: 1.3em;
+        a {
+          color: white;
+        }
     }
 }
 
-.post-meta {
+.event-meta {
     font-size: $small-font-size;
     color: $grey-color;
 }
@@ -227,12 +255,12 @@ margin-bottom: 1em;
    @include outer-container;
  }
 
-.post-header {
+.event-header {
   @include span-columns(12);
     margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.event-title {
     border-top: 1px solid #eee;
     font-size: 2em;
     padding-top: 1em;
@@ -240,7 +268,7 @@ margin-bottom: 1em;
 
 
 
-.post-content, .work-content {
+.event-content, .work-content {
   @include span-columns(9);
     margin-bottom: $spacing-unit;
 
