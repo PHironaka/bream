@@ -70,7 +70,7 @@
 // hashtags.
 var config1 = {
   "id": '608353168158826496',
-  "domId": 'ph-tweets',
+  "domId": 'user-tweets',
   "maxTweets": 3,
   "enableLinks": true
 };

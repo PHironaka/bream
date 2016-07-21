@@ -15,16 +15,19 @@ layout: default
 </div>
     {% for la in site.la limit:2 %}
 
-
+<a class="event-link" href="{{ la.url }}">
     <div class="event-copy" style="background-image: url(/uploads/{{ la.img }});">
   <div class="wrapper">
-        <h2>
-          <a class="event-link" href="{{ la.url }}">{{ la.title }}</a>
-        </h2>
+    <div class="post-color" style=" background:{{la.color}};">
 
-        <p class="post-meta"><time datetime="{{ la.date | date_to_xmlschema }}" itemprop="datePublished">{{ la.date | date: "%b %-d, %Y" }}</time>{% if la.author %} • <span itemprop="name">{{ la.author }}</span></span>{% endif %}</p>
+    </div>
+    <h2> {{ la.city-name }}</h2>
+
+        <h1>
+          {{ la.title }}
+        </h1>
 
 </div>
-      </div>
+      </div></a>
 {% endfor %}
   </div>
