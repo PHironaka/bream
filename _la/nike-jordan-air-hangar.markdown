@@ -5,7 +5,7 @@ categories:
 - hero
 position: 0
 img: IMG_5229.jpg
-city-page: Group.png
+city-page: Group-2.png
 engagement: 3.05%
 new-followers: 178
 views: '2,400'
