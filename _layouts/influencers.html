@@ -2,29 +2,41 @@
 layout: default
 ---
 
-  {{ content }}
+<div class="wrap">
+  <div class="influencer">
+<img src="{{page.thumbnail}}">
+<h1> {{page.title}}</h1>
+<h2>Location: {{page.location}}</h2>
+<h4>{{page.twitter}}</h4>
+<p class="countries">Countries Visited: {{page.countries}}</p>
 
-{% for work in site.work %}
-<div class="post-list">
-
-<div class="post-img">
-
-  <img src="/uploads/{{ work.img }}">
-
-
-</div>
-
-<div class="post-copy">
-
-    <h2>
-      <a class="post-link" href="{{ work.link }}">{{ work.title }}</a>
-    </h2>
-
-    <p>
-    {{ work.excerpt }}
-    </p>
-
+<p>{{page.bio}}</p>
   </div>
 
+<div class="influencer-list">
+  <article class="post-content">
+    {{ content }}
+
+
+  <div class="author-posts">
+
+          {% for post in site.posts %}
+          {% if post.influencer == {{page.title}}  %}
+            <div class="list">
+             <h1><a href="{{post.url}}" class="title">{{post.title}}</a></h1>
+             <p>{{post.content | strip_html | truncatewords: 30}}</p>
+             <a class="more-button"href="{{post.url}}" class="title">Read More</a>
+          </div>
+
+              {% endif %}
+
+
+          {% endfor %}
+
+
+
+       </div>
+  </div>
+</article>
 </div>
-{% endfor %}
+</div>
