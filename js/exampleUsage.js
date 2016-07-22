@@ -90,11 +90,12 @@ twitterFetcher.fetch(config1);
 // A simple example to get latest 5 tweets for #API tag and shows any images
 // attached to tweets.
 var config3 = {
-  "id": '608353168158826496',
-  "domId": 'example3',
-  "maxTweets": 5,
-  "enableLinks": true,
-  "showImages": true
+  "id": '756276020865601537',
+  "domId": 'influencer-tweets',
+  "showInteraction": false,
+  "maxTweets": 6,
+  "showUser": true,
+  "enableLinks": true
 };
 twitterFetcher.fetch(config3);
 
