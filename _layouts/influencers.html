@@ -2,19 +2,18 @@
 layout: default
 ---
 
-  <div class="influencer">
-<img src="{{page.image}}">
-<h1> {{page.title}}</h1>
+<div class="wrapper">
+  {{ content }}
 
 
-<p>{{page.bio}}</p>
+  <h1> influencers </h1>
+  {% for people in site.people %}
+      <section>
+          <a href="{{ people.url }}"> {{ people.title }}</a>
+      </section>
+  {% endfor %}
+
   </div>
 
-<div class="influencer-list">
-  <article class="post-content">
-    {{ content }}
 
-
-  
-</article>
 </div>
