@@ -185,6 +185,28 @@ overflow: hidden;
 #user-tweets {
   @include span-columns(6);
 
+  ul {
+    li {
+      margin: 1em 0;
+      padding: 1em 0;
+      border-bottom: 1px solid #eee;
+        &:last-child {
+          border-bottom: none;
+        }
+    }
+  }
+
+  .user {
+    img {
+      width: 20px;
+    }
+  }
+  p.tweet {
+      img {
+        width: 20px;
+      }
+  }
+
   @media screen and (max-width: $break-large) {
     width: 100%;
     margin: 0;
