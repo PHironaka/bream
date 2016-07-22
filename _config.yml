@@ -12,6 +12,9 @@ collections:
     title: la
     output: true
     list: list
+  name:
+    title: name
+    output: true
   sf:
     title: sf
     output: true
