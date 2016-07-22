@@ -69,9 +69,11 @@
 // id "example1". Also automatically hyperlinks URLS and user mentions and
 // hashtags.
 var config1 = {
-  "id": '608353168158826496',
+  "id": '756276020865601537',
   "domId": 'user-tweets',
-  "maxTweets": 3,
+  "showInteraction": false,
+  "maxTweets": 6,
+  "showUser": true,
   "enableLinks": true
 };
 twitterFetcher.fetch(config1);
