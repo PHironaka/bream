@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  {{ content }}
+
+
+
+<h1> LA </h1>
+  {% for la in site.la %}
+      <section>
+          <a href="{{ la.url }}">{{ la.title }}</a>
+      </section>
+    {% endfor %}
+
+    <h1> SF </h1>
+      {% for sf in site.sf %}
+          <section>
+              <a href="{{ sf.url }}">{{ sf.title }}</a>
+          </section>
+        {% endfor %}
+
+
+
+
+        <h1> influencers </h1>
+        {% for people in site.people %}
+            <section>
+                <a href="{{ people.url }}">{{ people.title }}</a>
+            </section>
+          {% endfor %}
+
+  </div>
