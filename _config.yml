@@ -15,6 +15,9 @@ collections:
     title: la
     output: true
     list: list
+  people:
+    title: people
+    output: true
   sf:
     title: sf
     output: true
