@@ -11,6 +11,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  cooking:
+    title: cooking
+    output: true
   la:
     title: la
     output: true
