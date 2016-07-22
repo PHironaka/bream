@@ -34,6 +34,7 @@ asset:
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
+tag: Basketball
 layout: post
 ---
 
