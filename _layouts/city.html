@@ -20,4 +20,18 @@ layout: default
               <a href="{{ sf.url }}">{{ sf.title }}</a>
           </section>
         {% endfor %}
+
+
+
+
+        <h1> influencers </h1>
+        {% for people in site.people %}
+            <section>
+                <a href="{{ people.url }}">{{ people.title }}</a>
+            </section>
+          {% endfor %}
+
+
+
+
   </div>
