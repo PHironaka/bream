@@ -15,6 +15,9 @@ collections:
     title: la
     output: true
     list: list
+  oc:
+    title: oc
+    output: true
   sf:
     title: sf
     output: true
