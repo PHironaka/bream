@@ -35,6 +35,10 @@ asset:
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
 tag: Basketball
+influencer-asset:
+- "/uploads/IMG_0002.JPG"
+- "/uploads/IMG_0002.JPG"
+- "/uploads/IMG_0002.JPG"
 layout: post
 ---
 
