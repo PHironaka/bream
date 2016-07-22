@@ -8,9 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  influencer:
-    title: influencer
-    output: true
   la:
     title: la
     output: true
