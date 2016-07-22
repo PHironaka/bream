@@ -2,29 +2,19 @@
 layout: default
 ---
 
-  {{ content }}
-
-{% for work in site.work %}
-<div class="post-list">
-
-<div class="post-img">
-
-  <img src="/uploads/{{ work.img }}">
+  <div class="influencer">
+<img src="{{page.image}}">
+<h1> {{page.title}}</h1>
 
 
-</div>
-
-<div class="post-copy">
-
-    <h2>
-      <a class="post-link" href="{{ work.link }}">{{ work.title }}</a>
-    </h2>
-
-    <p>
-    {{ work.excerpt }}
-    </p>
-
+<p>{{page.bio}}</p>
   </div>
 
+<div class="influencer-list">
+  <article class="post-content">
+    {{ content }}
+
+
+  
+</article>
 </div>
-{% endfor %}

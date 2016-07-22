@@ -205,7 +205,12 @@ margin: 6px 14px 0 0;
 margin-bottom: 1em;
 }
 
-
+.event-influencers {
+  @include outer-container;
+  margin: 2em 0;
+  padding: 3em 0 0;
+  border-top: 1px solid #eee;
+}
 
 .event-img {
     @include span-columns(6);
