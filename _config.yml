@@ -8,9 +8,6 @@ collections:
   influencers:
     title: Influencers
     output: true
-  people:
-    title: People
-    output: true
   posts:
     title: Posts
     output: true
