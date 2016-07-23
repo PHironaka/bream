@@ -5,6 +5,9 @@ collections:
   dolphins:
     title: Dolphins
     output: true
+  influencers:
+    title: Influencers
+    output: true
   people:
     title: People
     output: true
