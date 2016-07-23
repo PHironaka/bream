@@ -31,11 +31,11 @@ layout: default
 
 
   <h1> LOL </h1>
-  {% for Dolphin in site.dolphins %}
-    <section>
-    <a href="{{ dolphins.url }}">{{ dolphins.title }}</a>
-        </section>
-  {% endfor %}
 
+  {% for Influencers in site.influencer %}
+              <section>
+                  <a href="{{ Influencers.url }}">{{ Influencers.title }}</a>
+              </section>
+            {% endfor %}
 
   </div>
