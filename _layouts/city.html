@@ -22,17 +22,8 @@ layout: default
         {% endfor %}
 
 
-        <h1> SF </h1>
-          {% for oc in site.oc %}
-              <section>
-                  <a href="{{ oc.url }}">{{ oc.title }}</a>
-              </section>
-            {% endfor %}
-
-
   <h1> LOL </h1>
-
-  {% for Influencers in site.influencer %}
+  {% for influencer-names in site.influencer-name %}
               <section>
                   <a href="{{ Influencers.url }}">{{ Influencers.title }}</a>
               </section>
