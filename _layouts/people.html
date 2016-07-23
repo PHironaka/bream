@@ -7,9 +7,9 @@ layout: default
 
         <h1> influencers </h1>
 
-{% for Influencers in site.influencers %}
+{% for people in site.people %}
             <section>
-                <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+                <a href="{{ people.url }}">{{ people.title }}</a>
             </section>
           {% endfor %}
 

@@ -22,14 +22,20 @@ layout: default
         {% endfor %}
 
 
+        <h1> SF </h1>
+          {% for oc in site.oc %}
+              <section>
+                  <a href="{{ oc.url }}">{{ oc.title }}</a>
+              </section>
+            {% endfor %}
 
 
-        <h1> LOL </h1>
-        {% for People in site.people %}
-            <section>
-                <a href="{{ People.url }}">{{ People.title }}</a>
-            </section>
-          {% endfor %}
+  <h1> LOL </h1>
+  {% for Dolphin in site.dolphins %}
+    <section>
+    <a href="{{ dolphins.url }}">{{ dolphins.title }}</a>
+        </section>
+  {% endfor %}
 
 
   </div>
