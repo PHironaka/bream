@@ -2,9 +2,6 @@
 title: Nike West - Event Recaps
 timezone: UTC
 collections:
-  dolphins:
-    title: Dolphins
-    output: true
   influencers:
     title: Influencers
     output: true
