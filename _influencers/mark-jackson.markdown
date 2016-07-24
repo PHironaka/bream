@@ -1,6 +1,8 @@
 ---
 title: Mark Jackson
 date: 2016-07-23 01:10:00 Z
+city: SF
+image: "/uploads/red-gakell.jpg"
 layout: post
 ---
 
