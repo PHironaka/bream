@@ -6,27 +6,47 @@ layout: default
   {{ content }}
 
 
-
-<h1> LA </h1>
+<div class="city">
+<h1> Los Angeles </h1>
   {% for la in site.la %}
       <section>
           <a href="{{ la.url }}">{{ la.title }}</a>
       </section>
     {% endfor %}
+  </div>
 
-    <h1> SF </h1>
+<div class="city">
+      <h1> San Francisco </h1>
       {% for sf in site.sf %}
           <section>
               <a href="{{ sf.url }}">{{ sf.title }}</a>
           </section>
+
+            <h1> San Francisco Influencers</h1>
+
+            {% for influencers in site.influencers %}
+              {% if influencers.city  %}
+                {% assign influencers.city =='SF'  %}
+                  Ω
+<section class="influencers">
+  <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                <img src="{{ influencers.image }}">
+      </section>
+
+            {% endif %}
+  {% endfor %}
         {% endfor %}
 
+</div>
 
+<div class="city">
   <h1> LOL </h1>
-  {% for influencer-names in site.influencer-name %}
+  {% for influencers in site.influencers %}
               <section>
-                  <a href="{{ Influencers.url }}">{{ Influencers.title }}</a>
+                  <a href="{{ influencers.url }}">{{ influencers.title }}</a>
               </section>
             {% endfor %}
 
+</div>
   </div>

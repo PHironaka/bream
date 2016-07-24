@@ -7,10 +7,11 @@ layout: default
 
         <h1> {{ page.title }} </h1>
 
-{% for influencer in site.influencer %}
-            <section>
-                <a href="{{ influencers.url }}">{{ influencers.title }}</a>
-            </section>
-          {% endfor %}
+
+          {% for influencers in site.influencers %}
+                      <section>
+                          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+                      </section>
+                    {% endfor %}
 
   </div>

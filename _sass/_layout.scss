@@ -184,6 +184,12 @@
 /**
  * Page content
  */
+
+.city {
+  @include outer-container;
+  padding: 2em 0;
+}
+
 .page-content {
     padding: 0;
 
@@ -254,6 +260,10 @@ margin-bottom: 1em;
 .event-meta {
     font-size: $small-font-size;
     color: $grey-color;
+}
+
+.influencers {
+    @include span-columns(4);
 }
 
 
