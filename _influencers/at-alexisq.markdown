@@ -6,4 +6,4 @@ image: "/uploads/13696731_1740971702786904_934042238_a.jpg"
 instagram: 9,075 followers
 ---
 
-Bio: 
+Bio: Fitness Model.
