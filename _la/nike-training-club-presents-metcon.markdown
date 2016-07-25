@@ -1,6 +1,16 @@
 ---
 title: Nike Training Club Presents Metcon
 date: 2016-07-25 23:27:00 Z
+img: 2016-07-25.jpg
+city-page: Group-2.png
+engagement: 3.05%
+new-followers: 178
+views: '2,400'
+impressions: 3 million
+file:
+- "/uploads/2016-07-25.jpg"
+background-color: "#efff68"
+tag: Basketball
 ---
 
 ## JULY 22 - 25
