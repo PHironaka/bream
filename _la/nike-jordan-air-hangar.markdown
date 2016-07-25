@@ -1,5 +1,5 @@
 ---
-title: Nike + Jordan Presents The Air Hangar
+title: Nike+ Jordan Air Hangar
 date: 2016-07-09 16:51:00 Z
 categories:
 - hero
@@ -35,7 +35,9 @@ asset:
 - "/uploads/IMG_0002.JPG"
 tag: Basketball
 influencer-asset:
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
+- |-
+  <a class="embedly-card" href="https://www.facebook.com/nikesportswear/photos/a.170422069113.120009.20825389113/10154371463154114/?type=3&theater">Break the mold. Explore the Air Foamposite ...</a>
+  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 layout: post
