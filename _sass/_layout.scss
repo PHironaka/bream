@@ -39,7 +39,17 @@
 
 .site-title {
   margin: 7px 0;
-  @include span-columns(1);
+  @include span-columns(2);
+
+    img {
+        @include span-columns(4);
+    }
+
+  span {
+    font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
+    text-transform: uppercase;
+    display: inline;
+  }
 
   @media screen and (max-width: $break-small) {
     float: left;
@@ -268,7 +278,7 @@ margin-bottom: 1em;
 
     h2 {
       font-size: 1.6em;
-
+      color: white;
     }
 }
 
@@ -350,10 +360,8 @@ margin: 0 ;
 .influencers {
     @include span-columns(4);
     margin: 0;
-    padding: 12px;
-    text-align: center;
+    padding: 12px 12px 12px 0;
       img {
-        border-radius: 110px;
         padding: 10px 0;
         @media screen and (max-width: $break-large) {
           max-width: 97px;
