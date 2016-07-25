@@ -7,7 +7,14 @@ layout: default
 
 
 <div class="city">
+  {% for la in site.la %}
+  <div class="post-color" style=" background:{{la.background_color}};">  </div>
+  {% endfor %}
+
     <h1> Los Angeles </h1>
+
+
+
   <section class="influencer-events">
   <h3> Event Name</h3>
   {% for la in site.la %}
@@ -36,6 +43,11 @@ layout: default
   </div>
 
 <div class="city">
+
+  {% for sf in site.sf %}
+  <div class="post-color" style=" background:{{sf.background_color}};">  </div>
+  {% endfor %}
+
       <h1> San Francisco </h1>
       <section class="influencer-events">
       <h3> Event Name</h3>
