@@ -8,3 +8,4 @@ twitter: 17.1k followers
 layout: page
 ---
 
+Head of Digital Creator Community @JoinNiche/@Twitter. Creator: @outfitgrid. Previously: @nike
