@@ -5,13 +5,28 @@ layout: default
 <div class="wrapper">
   {{ content }}
 
-        <h1> {{ page.title }} </h1>
+        <h1> Influencer Directory</h1>
+
+        <div class="influencer-list">
+
+                    {% for influencers in site.influencers %}
+
+        <section class="influencer-individual">
+          <img src="{{ influencers.image }}">
+
+          <div class="influencer-bio">
+
+          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+          <p> {{influencers.content}}</p>
+          <p> Instagram Followers: {{influencers.instagram}}</p>
+          <p> City: {{influencers.city}}</p>
+          
+          </div>
+
+              </section>
 
 
-          {% for influencers in site.influencers %}
-                      <section>
-                          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
-                      </section>
-                    {% endfor %}
+                {% endfor %}
+          </div>
 
   </div>

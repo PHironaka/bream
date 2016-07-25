@@ -2,15 +2,24 @@
 layout: default
 ---
 
-<div class="event-copy" style="background-image: url(/uploads/{{ page.img }});" >
-  <div class="wrapper">
+<div class="wrapper">
+  {{ content }}
 
-      <div class="post-color" style=" background:{{page.color}};">
 
-      </div>
-      <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
+        <div class="influencer-names">
+                    <h3> Los Angeles Influencers</h3>
 
-  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+                    {% for influencers in site.influencers %}
+                          {% if influencers.city  =='LA'   %}
 
-    </div>
-</div>
+        <section class="influencers">
+          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                        <img src="{{ influencers.image }}">
+              </section>
+
+
+                          {% endif %}
+                {% endfor %}
+          </div>
+  </div>

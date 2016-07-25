@@ -7,27 +7,51 @@ layout: default
 
 
 <div class="city">
-<h1> Los Angeles </h1>
+    <h1> Los Angeles </h1>
+  <section class="influencer-events">
+  <h3> Event Name</h3>
   {% for la in site.la %}
       <section>
           <a href="{{ la.url }}">{{ la.title }}</a>
       </section>
-    {% endfor %}
+        {% endfor %}
+        </section>
+
+        <div class="influencer-names">
+                    <h3> Los Angeles Influencers</h3>
+
+                    {% for influencers in site.influencers %}
+                          {% if influencers.city  =='LA'   %}
+
+        <section class="influencers">
+          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                        <img src="{{ influencers.image }}">
+              </section>
+
+
+                          {% endif %}
+                {% endfor %}
+          </div>
   </div>
 
 <div class="city">
       <h1> San Francisco </h1>
+      <section class="influencer-events">
+      <h3> Event Name</h3>
       {% for sf in site.sf %}
           <section>
               <a href="{{ sf.url }}">{{ sf.title }}</a>
           </section>
+            {% endfor %}
+            </section>
 
-            <h1> San Francisco Influencers</h1>
+<div class="influencer-names">
+            <h3> San Francisco Influencers</h3>
 
             {% for influencers in site.influencers %}
-              {% if influencers.city  %}
-                {% assign influencers.city =='SF'  %}
-                  Ω
+              {% if influencers.city  =='SF'   %}
+
 <section class="influencers">
   <a href="{{ influencers.url }}">{{ influencers.title }}</a>
 
@@ -35,18 +59,9 @@ layout: default
       </section>
 
             {% endif %}
-  {% endfor %}
+
         {% endfor %}
-
+  </div>
 </div>
 
-<div class="city">
-  <h1> LOL </h1>
-  {% for influencers in site.influencers %}
-              <section>
-                  <a href="{{ influencers.url }}">{{ influencers.title }}</a>
-              </section>
-            {% endfor %}
-
-</div>
   </div>

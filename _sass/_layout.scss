@@ -188,6 +188,7 @@
 .city {
   @include outer-container;
   padding: 2em 0;
+
 }
 
 .page-content {
@@ -262,8 +263,71 @@ margin-bottom: 1em;
     color: $grey-color;
 }
 
+.influencer-events {
+  @include span-columns(4);
+  padding: 3em 0;
+  border-top: 1px solid #eee;
+}
+
+.influencer-list {
+  @include span-columns(12);
+  padding: 3em 0;
+  border-top: 1px solid #eee;
+
+
+  .influencer-individual {
+      @include span-columns(9);
+      margin: 0;
+      padding: 12px;
+      text-align: center;
+
+        .influencer-bio {
+          @include span-columns(6);
+          @include shift(1);
+          text-align: left;
+
+            p {
+              font-size: .9em;
+              margin: 10px 0;
+            }
+
+        }
+
+        img {
+          @include span-columns(4);
+
+          @media screen and (max-width: $break-large) {
+            max-width: 97px;
+            }
+        }
+  }
+}
+
+
+.influencer-names {
+  @include span-columns(7);
+  @include shift(1);
+  padding: 3em 0;
+  border-top: 1px solid #eee;
+
+  @media screen and (max-width: $break-large) {
+    width: 100%;
+    margin: 0;
+
+    }
+
 .influencers {
     @include span-columns(4);
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+      img {
+        border-radius: 110px;
+        @media screen and (max-width: $break-large) {
+          max-width: 97px;
+          }
+      }
+}
 }
 
 
