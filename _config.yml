@@ -21,6 +21,9 @@ collections:
   sf:
     title: sf
     output: true
+  user-tweets:
+    title: user-tweets
+    output: true
 email: your-email@domain.com
 description: Nike West Event Recaps.
 baseurl: 
