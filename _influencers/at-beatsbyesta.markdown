@@ -6,4 +6,4 @@ image: "/uploads/12716924_1375563882460118_1931973274_a.jpg"
 instagram: 46k followers
 ---
 
-Bio: Soulection DJ. 
+Bio: Soulection DJ // Soundcloud.com/beatsbyesta esta.sucks
