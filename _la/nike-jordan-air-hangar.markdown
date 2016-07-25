@@ -24,6 +24,7 @@ file:
 - "/uploads/IMG_0021.JPG"
 - "/uploads/IMG_0020.JPG"
 - "/uploads/IMG_0019.JPG"
+- "/uploads/IMG_0076.JPG"
 city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
