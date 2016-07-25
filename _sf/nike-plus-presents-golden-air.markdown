@@ -1,6 +1,28 @@
 ---
 title: Nike+ Presents Golden Air
 date: 2016-07-20 17:13:00 Z
+img: Golden_Air_1600x688.jpg
+city-page: Group-2.png
+engagement: 3.05%
+impressions: 3 million
+new-followrs: 190
+file:
+- "/uploads/IMG_0076.JPG"
+- "/uploads/IMG_0077.JPG"
+- "/uploads/IMG_0073.JPG"
+- "/uploads/IMG_0071.JPG"
+- "/uploads/IMG_0069.JPG"
+- "/uploads/IMG_0061.JPG"
+- "/uploads/IMG_0060.JPG"
+- "/uploads/IMG_0058.JPG"
+- "/uploads/IMG_0056.JPG"
+- "/uploads/IMG_0047.JPG"
+- "/uploads/IMG_0048.JPG"
+- "/uploads/IMG_0040.JPG"
+- "/uploads/IMG_0033.JPG"
+- "/uploads/IMG_0032.JPG"
+- "/uploads/IMG_0021.JPG"
+- "/uploads/IMG_0027.JPG"
 Field name: 
 layout: post
 ---
