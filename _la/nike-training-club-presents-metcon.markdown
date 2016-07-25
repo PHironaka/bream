@@ -11,6 +11,7 @@ file:
 - "/uploads/2016-07-25.jpg"
 background_color: "#efff68"
 tag: Basketball
+city-name: Los Angeles
 ---
 
 ## JULY 22 - 25
