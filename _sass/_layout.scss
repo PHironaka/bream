@@ -280,6 +280,10 @@ margin-bottom: 1em;
   @include span-columns(4);
   padding: 3em 0;
   border-top: 1px solid #eee;
+
+  @media screen and (max-width: $break-small) {
+    width: 100%;
+    }
 }
 
 .influencer-list {
