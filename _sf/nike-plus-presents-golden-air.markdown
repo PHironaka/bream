@@ -20,7 +20,6 @@ file:
 - "/uploads/IMG_0040.JPG"
 - "/uploads/IMG_0032.JPG"
 city: "@los-angeles"
-background_color: "#fd4141"
 color: "#fd4141"
 layout: post
 ---
