@@ -27,7 +27,6 @@ file:
 city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
-color: "#efff68"
 date-range: July 22-25
 asset:
 - "/uploads/IMG_0002.JPG"
