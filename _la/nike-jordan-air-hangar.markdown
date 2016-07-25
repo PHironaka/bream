@@ -12,7 +12,7 @@ views: '2,400'
 impressions: 3 million
 tweets: 
 file:
-- "/uploads/IMG_0024.JPG"
+- "/uploads/IMG_0006.JPG"
 - "/uploads/IMG_0024.JPG"
 - "/uploads/IMG_0029.JPG"
 - "/uploads/IMG_0028.JPG"
