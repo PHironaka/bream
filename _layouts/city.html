@@ -44,7 +44,7 @@ layout: default
 
 <div class="city">
 
-  {% for sf in site.sf %}
+  {% for sf in site.sf limit:1 %}
   <div class="post-color" style=" background:{{sf.background_color}};">  </div>
   {% endfor %}
 

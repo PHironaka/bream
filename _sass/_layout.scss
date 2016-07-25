@@ -323,6 +323,7 @@ margin-bottom: 1em;
     text-align: center;
       img {
         border-radius: 110px;
+        padding: 10px 0;
         @media screen and (max-width: $break-large) {
           max-width: 97px;
           }
