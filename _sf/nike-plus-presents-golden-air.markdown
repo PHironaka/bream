@@ -19,8 +19,6 @@ file:
 - "/uploads/IMG_0048.JPG"
 - "/uploads/IMG_0040.JPG"
 - "/uploads/IMG_0032.JPG"
-- "/uploads/IMG_0021.JPG"
-- "/uploads/IMG_0027.JPG"
 city: "@los-angeles"
 background_color: "#fd4141"
 color: "#fd4141"
