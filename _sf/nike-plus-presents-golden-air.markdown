@@ -1,7 +1,7 @@
 ---
 title: Nike+ Presents Golden Air
 date: 2016-07-20 17:13:00 Z
-img: Golden_Air_1600x688.jpg
+img: IMG_0058.JPG
 city-page: Group-2.png
 engagement: 3.05%
 impressions: 3 million
