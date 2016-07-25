@@ -11,6 +11,12 @@
 @include shift(4);
     padding: 10px 0;
 
+    @media screen and (max-width: $break-small) {
+      width: 53.82117%;
+  margin-left: 15.11922%;
+      }
+
+
             ul {
               text-align: right;
               margin: 0;
@@ -281,6 +287,11 @@ margin-bottom: 1em;
       padding: 12px;
       text-align: center;
 
+      @media screen and (max-width: $break-small) {
+
+width: 100%;
+        }
+
         .influencer-bio {
           @include span-columns(6);
           @include shift(1);
@@ -297,7 +308,11 @@ margin-bottom: 1em;
           @include span-columns(4);
 
           @media screen and (max-width: $break-small) {
-            max-width: 97px;
+            float: none;
+            display: block;
+margin-right: 2.35765%;
+width: 79.76157%;
+margin: 0 auto;
             }
         }
   }

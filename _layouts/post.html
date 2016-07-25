@@ -5,11 +5,12 @@ layout: default
 <div class="event-copy" style="background-image: url(/uploads/{{ page.img }});" >
   <div class="wrapper">
 
-      
+      <div class="post-color" style=" background:{{page.background_color}};">
 
       </div>
+      <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
 
-
+  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
 
     </div>
 </div>
@@ -18,8 +19,6 @@ layout: default
   <div class="event-overview">
 
   <div class="event-content" itemprop="articleBody">
-    <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
-<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     {{ content }}
 
 
@@ -53,7 +52,13 @@ layout: default
 </div>
 </div>
 
+<div class="event-influencers">
+  <h1>Influencer Participation </h1>
 
+  {% for influencer-asset in page.influencer-asset %}
+<img src="{{ influencer-asset }}">
+{% endfor %}
+</div>
 
 
 <div class="event-photos">

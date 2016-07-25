@@ -21,6 +21,7 @@ file:
 - "/uploads/IMG_0032.JPG"
 city: "@los-angeles"
 background_color: "#fd4141"
+city-name: San Francisco
 layout: post
 ---
 
