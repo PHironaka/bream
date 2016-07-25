@@ -22,6 +22,9 @@ file:
 city: "@los-angeles"
 background_color: "#fd4141"
 city-name: San Francisco
+asset:
+- "/uploads/IMG_0063-d3d8b3.JPG"
+- "/uploads/IMG_0062-069fe6.JPG"
 layout: post
 ---
 
