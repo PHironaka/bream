@@ -296,6 +296,11 @@ margin-bottom: 1em;
           @include shift(1);
           text-align: left;
 
+          @media screen and (max-width: $break-small) {
+            width: 100%;
+            margin: 0
+            }
+
             p {
               font-size: .9em;
               margin: 10px 0;
