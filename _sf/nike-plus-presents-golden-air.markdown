@@ -23,7 +23,8 @@ file:
 - "/uploads/IMG_0032.JPG"
 - "/uploads/IMG_0021.JPG"
 - "/uploads/IMG_0027.JPG"
-Field name: 
+city: "@los-angeles"
+background_color: "#fd4141"
 layout: post
 ---
 
