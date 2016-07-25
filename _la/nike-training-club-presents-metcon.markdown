@@ -9,7 +9,7 @@ views: '2,400'
 impressions: 3 million
 file:
 - "/uploads/2016-07-25.jpg"
-background-color: "#efff68"
+background_color: "#efff68"
 tag: Basketball
 ---
 
