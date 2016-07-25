@@ -4,7 +4,7 @@ date: 2016-07-09 16:51:00 Z
 categories:
 - hero
 position: 0
-img: IMG_5229.jpg
+img: IMG_0006.JPG
 city-page: Group-2.png
 engagement: 3.05%
 new-followers: 178
@@ -12,7 +12,7 @@ views: '2,400'
 impressions: 3 million
 tweets: 
 file:
-- "/uploads/IMG_0024.JPG"
+- "/uploads/IMG_0006.JPG"
 - "/uploads/IMG_0024.JPG"
 - "/uploads/IMG_0029.JPG"
 - "/uploads/IMG_0028.JPG"
@@ -27,7 +27,6 @@ file:
 city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
-color: "#efff68"
 date-range: July 22-25
 asset:
 - "/uploads/IMG_0002.JPG"

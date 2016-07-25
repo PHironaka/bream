@@ -18,7 +18,7 @@ layout: default
 <a class="event-link" href="{{ la.url }}">
     <div class="event-copy" style="background-image: url(/uploads/{{ la.img }});">
   <div class="wrapper">
-    <div class="post-color" style=" background:{{la.color}};">
+    <div class="post-color" style=" background:{{la.background_color}};">
 
     </div>
     <h2> {{ la.city-name }}</h2>
@@ -29,5 +29,23 @@ layout: default
 
 </div>
       </div></a>
+{% endfor %}
+
+{% for sf in site.sf limit:2 %}
+
+<a class="event-link" href="{{ sf.url }}">
+<div class="event-copy" style="background-image: url(/uploads/{{ sf.img }});">
+<div class="wrapper">
+<div class="post-color" style=" background:{{sf.background_color}};">
+
+</div>
+<h2> {{ sf.city-name }}</h2>
+
+    <h1>
+      {{ sf.title }}
+    </h1>
+
+</div>
+  </div></a>
 {% endfor %}
   </div>

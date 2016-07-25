@@ -6,27 +6,74 @@ layout: default
   {{ content }}
 
 
+<div class="city">
+  {% for la in site.la %}
+  <div class="post-color" style=" background:{{la.background_color}};">  </div>
+  {% endfor %}
 
-<h1> LA </h1>
+    <h1> Los Angeles </h1>
+
+
+
+  <section class="influencer-events">
+  <h3> Event Name</h3>
   {% for la in site.la %}
       <section>
           <a href="{{ la.url }}">{{ la.title }}</a>
       </section>
-    {% endfor %}
+        {% endfor %}
+        </section>
 
-    <h1> SF </h1>
+        <div class="influencer-names">
+                    <h3> Los Angeles Influencers</h3>
+
+                    {% for influencers in site.influencers %}
+                          {% if influencers.city  =='LA'   %}
+
+        <section class="influencers">
+          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                        <img src="{{ influencers.image }}">
+              </section>
+
+
+                          {% endif %}
+                {% endfor %}
+          </div>
+  </div>
+
+<div class="city">
+
+  {% for sf in site.sf limit:1 %}
+  <div class="post-color" style=" background:{{sf.background_color}};">  </div>
+  {% endfor %}
+
+      <h1> San Francisco </h1>
+      <section class="influencer-events">
+      <h3> Event Name</h3>
       {% for sf in site.sf %}
           <section>
               <a href="{{ sf.url }}">{{ sf.title }}</a>
           </section>
-        {% endfor %}
-
-
-  <h1> LOL </h1>
-  {% for influencer-names in site.influencer-name %}
-              <section>
-                  <a href="{{ Influencers.url }}">{{ Influencers.title }}</a>
-              </section>
             {% endfor %}
+            </section>
+
+<div class="influencer-names">
+            <h3> San Francisco Influencers</h3>
+
+            {% for influencers in site.influencers %}
+              {% if influencers.city  =='SF'   %}
+
+<section class="influencers">
+  <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                <img src="{{ influencers.image }}">
+      </section>
+
+            {% endif %}
+
+        {% endfor %}
+  </div>
+</div>
 
   </div>

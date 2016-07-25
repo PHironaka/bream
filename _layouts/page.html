@@ -2,11 +2,24 @@
 layout: default
 ---
 
-<article class="post">
+<div class="wrapper">
+  {{ content }}
 
 
-  <div class="post-content">
-    {{ content }}
+        <div class="influencer-names">
+                    <h3> Los Angeles Influencers</h3>
+
+                    {% for influencers in site.influencers %}
+                          {% if influencers.city  =='LA'   %}
+
+        <section class="influencers">
+          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
+
+                        <img src="{{ influencers.image }}">
+              </section>
+
+
+                          {% endif %}
+                {% endfor %}
+          </div>
   </div>
-
-</article>
