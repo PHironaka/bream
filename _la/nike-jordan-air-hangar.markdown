@@ -4,7 +4,7 @@ date: 2016-07-09 16:51:00 Z
 categories:
 - hero
 position: 0
-img: IMG_0006.JPG
+img: IMG_0014.JPG
 city-page: Group-2.png
 engagement: 3.05%
 new-followers: 178
