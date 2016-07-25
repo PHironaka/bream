@@ -12,6 +12,7 @@ file:
 background_color: "#efff68"
 tag: Basketball
 city-name: Los Angeles
+layout: post
 ---
 
 ## JULY 22 - 25
