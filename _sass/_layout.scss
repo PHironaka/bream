@@ -12,8 +12,8 @@
     padding: 10px 0;
 
     @media screen and (max-width: $break-small) {
-      width: 53.82117%;
-  margin-left: 15.11922%;
+      width:  83.82117%;
+  margin-left: 0;
       }
 
 
@@ -23,6 +23,10 @@
               li {
                 display: inline;
                 margin: 2em;
+
+                @media screen and (max-width: $break-small) {
+                  margin: 1em;
+                  }
 
                 a {
                   font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
@@ -38,7 +42,10 @@
   @include span-columns(1);
 
   @media screen and (max-width: $break-small) {
-      @include span-columns(2);
+    float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 13.70196%;
     }
 
     &,
