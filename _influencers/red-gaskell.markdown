@@ -5,3 +5,4 @@ city: SF
 image: "/uploads/red-gakell.jpg"
 ---
 
+Bio: Community Manager @ Everlane. 
