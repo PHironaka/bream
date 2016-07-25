@@ -11,7 +11,6 @@ file:
 - "/uploads/IMG_0077.JPG"
 - "/uploads/IMG_0073.JPG"
 - "/uploads/IMG_0071.JPG"
-- "/uploads/IMG_0069.JPG"
 - "/uploads/IMG_0061.JPG"
 - "/uploads/IMG_0060.JPG"
 - "/uploads/IMG_0058.JPG"
