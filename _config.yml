@@ -21,6 +21,9 @@ collections:
   sf:
     title: sf
     output: true
+  snkrs-instagram:
+    title: snkrs-instagram
+    output: true
   user-tweets:
     title: user-tweet
     output: true
