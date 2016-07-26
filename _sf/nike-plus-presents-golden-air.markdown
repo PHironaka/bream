@@ -34,6 +34,7 @@ city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for ci
   pages in the US vs. weekly 3,000 city page views)
 total-revenue: TBD – coming later this afternoon
 net-registrants: TBD – coming later this afternoon
+tag: SNKRS
 layout: post
 ---
 
