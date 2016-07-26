@@ -5,4 +5,4 @@ image: "/uploads/Qgjj-L3J.jpg"
 city: SF
 ---
 
-Bio: old soul |  Digital Marketing | Previously @NikeWomen & @SohoHouse | continuously searching out the future before it arrives | views expressed here are my own.
+Bio: old soul. Digital Marketing. Previously @NikeWomen & @SohoHouse. continuously searching out the future before it arrives. views expressed here are my own.
