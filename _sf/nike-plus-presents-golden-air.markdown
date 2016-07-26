@@ -1,5 +1,5 @@
 ---
-title: Nike+ Presents Golden Air
+title: Nike+ SNKRS Presents Golden Air BOX
 date: 2016-07-20 17:13:00 Z
 background-post-image: "/uploads/IMG_0058.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
