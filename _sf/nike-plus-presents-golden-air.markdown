@@ -1,6 +1,8 @@
 ---
 title: Nike+ SNKRS Presents Golden Air BOX
 date: 2016-07-20 17:13:00 Z
+tags:
+- SNKRS
 background-post-image: "/uploads/IMG_0058.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: 9.3% (vs. average 3%)
@@ -32,7 +34,6 @@ city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for ci
   pages in the US vs. weekly 3,000 city page views)
 total-revenue: TBD – coming later this afternoon
 net-registrants: TBD – coming later this afternoon
-tag: SNKRS
 layout: post
 ---
 
