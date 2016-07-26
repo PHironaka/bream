@@ -23,7 +23,6 @@ photographer-assets:
 - "/uploads/IMG_0048.JPG"
 - "/uploads/IMG_0045.JPG"
 - "/uploads/IMG_0031.JPG"
-- "/uploads/IMG_0032.JPG"
 - "/uploads/IMG_0021.JPG"
 - "/uploads/IMG_0018.JPG"
 tweet-list: SNKRS
