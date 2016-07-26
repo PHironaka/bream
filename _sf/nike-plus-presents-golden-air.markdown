@@ -28,9 +28,6 @@ twitter-asset:
 - "/uploads/IMG_0015%202.JPG"
 - "/uploads/IMG_0014%202.JPG"
 - "/uploads/IMG_0013%202.JPG"
-- "/uploads/IMG_0005%202.JPG"
-- "/uploads/IMG_0006%202.JPG"
-- "/uploads/IMG_0010%202.JPG"
 layout: post
 ---
 
