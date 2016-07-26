@@ -5,7 +5,7 @@ img: 2016-07-25.jpg
 city-page: Group-2.png
 engagement: 3.05%
 new-followers: 178
-views: '2,400'
+city-page-views: '2,400'
 impressions: 3 million
 file:
 - "/uploads/2016-07-25.jpg"
