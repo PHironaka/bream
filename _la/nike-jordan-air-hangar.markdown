@@ -7,7 +7,7 @@ tags:
 - Basketball
 position: 0
 background-post-image: "/uploads/IMG_0006.JPG"
-city-page-mobile: Group-2.png
+city-page-mobile-asset: "/uploads/Group.png"
 engagement-rate: 3.05%
 new-followers: 178
 city-page-views: '2,400'
