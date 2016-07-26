@@ -19,6 +19,11 @@ photographer-assets:
 - "/uploads/IMG_0048.JPG"
 - "/uploads/IMG_0040.JPG"
 - "/uploads/IMG_0032.JPG"
+- "/uploads/IMG_0071.JPG"
+- "/uploads/IMG_0056.JPG"
+- "/uploads/IMG_0045.JPG"
+- "/uploads/IMG_0031.JPG"
+- "/uploads/IMG_0032.JPG"
 tweet-list: SNKRS
 background_color: "#fd4141"
 city-name: San Francisco
