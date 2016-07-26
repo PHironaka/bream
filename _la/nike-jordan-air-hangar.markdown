@@ -12,7 +12,7 @@ engagement-rate: 3.05%
 new-followers: 178
 city-page-views: '2,400'
 impressions: 3 million
-file:
+photographer-assets:
 - "/uploads/IMG_0006.JPG"
 - "/uploads/IMG_0024.JPG"
 - "/uploads/IMG_0029.JPG"
@@ -39,7 +39,7 @@ influencer-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-tweet-list: jordan
+tweet-list: SNKRS
 layout: post
 ---
 
