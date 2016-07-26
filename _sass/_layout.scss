@@ -7,13 +7,13 @@
     position: relative;
 
        nav {
-         @include span-columns(6);
+         @include span-columns(5);
 @include shift(4);
     padding: 10px 0;
 
     @media screen and (max-width: $break-small) {
-      width:  83.82117%;
-  margin-left: 0;
+        width: 61.82117%;
+        margin-left: 0;
       }
 
 
@@ -25,7 +25,7 @@
                 margin: 2em;
 
                 @media screen and (max-width: $break-small) {
-                  margin: 1em;
+                  margin: 0.5em;
                   }
 
                 a {
@@ -39,7 +39,7 @@
 
 .site-title {
   margin: 7px 0;
-  @include span-columns(2);
+  @include span-columns(3);
 
     img {
         @include span-columns(4);
@@ -49,13 +49,14 @@
     font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
     text-transform: uppercase;
     display: inline;
+    color: black;
   }
 
   @media screen and (max-width: $break-small) {
     float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 13.70196%;
+  width: 34.70196%;
     }
 
     &,
@@ -140,6 +141,10 @@
 .site-footer {
     padding: $spacing-unit 0;
         margin: 3em 0 0;
+
+        img {
+          @include span-columns(1);
+        }
 }
 
 .footer-heading {
@@ -230,10 +235,19 @@ margin: 6px 14px 0 0;
     font-weight: $header-font-weight;
 }
 
-.event-list, .event-tweets {
+.event-list {
 @include outer-container;
 margin-bottom: 1em;
 }
+
+.event-engagement {
+@include outer-container;
+margin-bottom: 1em;
+  span {
+    font-family: $base-font-family;
+  }
+}
+
 
 .event-influencers {
   @include outer-container;
@@ -260,6 +274,10 @@ margin-bottom: 1em;
   position: relative;
   top: 0;
   padding: 3em 0;
+
+  a {
+    color: white;
+  }
 
     h1 {
       font-size: 4em;
@@ -337,7 +355,7 @@ margin-bottom: 1em;
             float: none;
             display: block;
 margin-right: 2.35765%;
-width: 79.76157%;
+width: 100%;
 margin: 0 ;
             }
         }
@@ -351,21 +369,25 @@ margin: 0 ;
   padding: 3em 0;
   border-top: 1px solid #eee;
 
-  @media screen and (max-width: $break-large) {
+  @media screen and (max-width: $break-small) {
     width: 100%;
     margin: 0;
 
     }
 
 .influencers {
-    @include span-columns(4);
+  display: inline-block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
     margin: 0;
     padding: 12px 12px 12px 0;
+    
+
+
+
       img {
         padding: 10px 0;
-        @media screen and (max-width: $break-large) {
-          max-width: 97px;
-          }
+
       }
 }
 }
@@ -438,9 +460,9 @@ margin: 0 ;
   padding-top: 2em;
 
     img {
-      float: left;
-display: block;
-width: 24.23176%;
+      display: inline;
+  width: 23.23176%;
+  padding: 12px 0 0 12px;
 
 @media screen and (max-width: $break-large) {
   width: 100%;
