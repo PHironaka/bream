@@ -39,7 +39,7 @@ influencer-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-tweet: jordan
+tweet-list: jordan
 layout: post
 ---
 
