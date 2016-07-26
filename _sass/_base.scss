@@ -182,7 +182,7 @@ overflow: hidden;
 
 }
 
-#user-tweets, .user-tweets {
+#user-tweets, #jordan-tweets, .user-tweets {
   @include span-columns(6);
 
   ul {

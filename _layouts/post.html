@@ -43,13 +43,13 @@ layout: default
 <h1>{{ page.city }} Consumer Sentiment </h1>
 
 
-  {% if page.tweet  =='SNKRS'   %}
+  {% if page.tweet-list  =='SNKRS'   %}
 <div id="user-tweets">
 </div>
 {% endif %}
 
-  {% if page.tweet  =='jordan'   %}
-<div id="influencer-tweets">
+  {% if page.tweet-list  =='JORDAN'   %}
+<div id="jordan">
 </div>
 {% endif %}
 
@@ -65,8 +65,8 @@ layout: default
 <div class="event-photos">
   <h1>Event Photos </h1>
 
-  {% for file in page.file %}
-<img src="{{ file }}">
+  {% for photographer-assets in page.photographer-assets %}
+<img src="{{ photographer-assets }}">
 {% endfor %}
 </div>
 
