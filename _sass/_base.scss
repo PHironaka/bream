@@ -213,7 +213,7 @@ overflow: hidden;
     }
 }
 
-.user-instas {
+.user-instas,.user-tweets, .event-tweets {
   @include span-columns(6);
   @media screen and (max-width: $break-large) {
     width: 100%;

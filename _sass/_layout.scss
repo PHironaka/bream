@@ -235,10 +235,19 @@ margin: 6px 14px 0 0;
     font-weight: $header-font-weight;
 }
 
-.event-list, .event-tweets {
+.event-list {
 @include outer-container;
 margin-bottom: 1em;
 }
+
+.event-engagement {
+@include outer-container;
+margin-bottom: 1em;
+  span {
+    font-family: $base-font-family;
+  }
+}
+
 
 .event-influencers {
   @include outer-container;
@@ -360,27 +369,25 @@ margin: 0 ;
   padding: 3em 0;
   border-top: 1px solid #eee;
 
-  @media screen and (max-width: $break-large) {
+  @media screen and (max-width: $break-small) {
     width: 100%;
     margin: 0;
 
     }
 
 .influencers {
-    @include span-columns(4);
+  display: inline-block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
     margin: 0;
     padding: 12px 12px 12px 0;
+    
 
-    @media screen and (max-width: $break-large) {
-      @include span-columns(5);
 
-      }
 
       img {
         padding: 10px 0;
-        @media screen and (max-width: $break-large) {
-          max-width: 97px;
-          }
+
       }
 }
 }

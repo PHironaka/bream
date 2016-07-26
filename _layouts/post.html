@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="event-copy" style="background-image: url(/uploads/{{ page.img }});" >
+<div class="event-copy" style="background-image: url({{ page.background-post-image }});" >
   <div class="wrapper">
 
       <div class="post-color" style=" background:{{page.background_color}};">
@@ -23,23 +23,29 @@ layout: default
 
 
     <div class="event-engagement">
-      <h3>Impressions: <span>{{ page.impressions }}</span></h3>
+      <h3>Impressions: </h3><p>{{ page.impressions }}</p>
 
-      <h3>City Page Views <span>{{ page.views }} </span></h3>
+      <h3>City Page Views: </h3> <p>{{ page.city-page-views }} </p>
 
-      <h3>Engagment Rate  <span>{{ page.engagement }}</span> </h3>
+      <h3>Engagment Rate: </h3> <p>{{ page.engagement-rate }}</p>
 
-      <h3>New Followers: <span> {{ page.new-followers }}</span></h3>
+      <h3>New Followers:</h3> <p> {{ page.new-followers }}</p>
+
+      <h3>Registrants through NET:</h3> <p> {{ page.net-registrants }}</p>
+
+      <h3>Total Revenue:</h3> <p> {{ page.total-revenue }}</p>
 
     </div>
       </div>
 
 <div class="event-city-page">
-<img src="/uploads/{{ page.city-page }}">
+<img src="{{ page.city-page-mobile-asset }}">
 </div>
 </div>
 
-<div class="event-tweets">
+<div class="event-engagement">
+<h1>User Engagement </h1>
+  <div class="user-tweets">
   {% for asset in page.twitter-asset %}
 <img src="{{ asset }}">
 {% endfor %}
@@ -49,7 +55,7 @@ layout: default
   {% for asset in page.instagram-asset %}
 <img src="{{ asset }}">
 {% endfor %}
-
+</div>
 </div>
 
 
