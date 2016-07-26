@@ -17,7 +17,7 @@ file:
 - "/uploads/IMG_0048.JPG"
 - "/uploads/IMG_0040.JPG"
 - "/uploads/IMG_0032.JPG"
-city: "@los-angeles"
+tweet: SNKRS
 background_color: "#fd4141"
 city-name: San Francisco
 asset:
