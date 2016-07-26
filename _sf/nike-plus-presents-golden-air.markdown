@@ -7,10 +7,8 @@ engagement: 3.05%
 impressions: 3 million
 new-followrs: 190
 file:
-- "/uploads/IMG_0076.JPG"
 - "/uploads/IMG_0077.JPG"
 - "/uploads/IMG_0073.JPG"
-- "/uploads/IMG_0071.JPG"
 - "/uploads/IMG_0061.JPG"
 - "/uploads/IMG_0060.JPG"
 - "/uploads/IMG_0058.JPG"
