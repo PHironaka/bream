@@ -12,7 +12,6 @@ engagement-rate: 3.05%
 new-followers: 178
 city-page-views: '2,400'
 impressions: 3 million
-tweets: 
 file:
 - "/uploads/IMG_0006.JPG"
 - "/uploads/IMG_0024.JPG"
