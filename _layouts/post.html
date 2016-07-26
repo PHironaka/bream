@@ -40,33 +40,24 @@ layout: default
 </div>
 
 <div class="event-tweets">
-<h1>{{ page.city }} Consumer Sentiment </h1>
-
-
-  {% if page.tweet  =='SNKRS'   %}
-<div id="user-tweets">
-</div>
-{% endif %}
-
-  {% if page.tweet  =='jordan'   %}
-<div id="influencer-tweets">
-</div>
-{% endif %}
-
-
-<div class="user-instas">
-  {% for asset in page.asset %}
+  {% for asset in page.twitter-asset %}
 <img src="{{ asset }}">
 {% endfor %}
 </div>
+
+<div class="user-instas">
+  {% for asset in page.instagram-asset %}
+<img src="{{ asset }}">
+{% endfor %}
+
 </div>
 
 
 <div class="event-photos">
   <h1>Event Photos </h1>
 
-  {% for file in page.file %}
-<img src="{{ file }}">
+  {% for photographer-assets in page.photographer-assets %}
+<img src="{{ photographer-assets }}">
 {% endfor %}
 </div>
 

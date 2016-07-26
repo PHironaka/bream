@@ -79,6 +79,36 @@ var config1 = {
 twitterFetcher.fetch(config1);
 
 
+var config1 = {
+  "id": '757983810642325504',
+  "domId": 'jordan',
+  "showInteraction": false,
+  "maxTweets": 6,
+  "showUser": true,
+  "enableLinks": true
+};
+twitterFetcher.fetch(config1);
+
+var config3 = {
+  "id": '756276020865601537',
+  "domId": 'example3',
+  "showInteraction": false,
+  "maxTweets": 6,
+  "showUser": true,
+  "enableLinks": true
+  };
+  twitterFetcher.fetch(config3);
+
+var config3 = {
+  "id": '757983810642325504',
+  "domId": 'example3a',
+  "maxTweets": 5,
+  "enableLinks": true,
+  "showImages": true
+};
+twitterFetcher.fetch(config3);
+
+
 // ##### Simple example 2 #####
 // A simple example to get my latest 5 of my favourite tweets and write to a
 // HTML element with id "talk". Also automatically hyperlinks URLS and user
@@ -89,15 +119,7 @@ twitterFetcher.fetch(config1);
 // ##### Simple example 3 #####
 // A simple example to get latest 5 tweets for #API tag and shows any images
 // attached to tweets.
-var config3 = {
-  "id": '757983810642325504',
-  "domId": 'influencer-tweets',
-  "showInteraction": false,
-  "maxTweets": 6,
-  "showUser": true,
-  "enableLinks": true
-};
-twitterFetcher.fetch(config3);
+
 
 
 
@@ -108,7 +130,7 @@ twitterFetcher.fetch(config3);
 // retweets.
 var config4 = {
   "id": '608353168158826496',
-  "domId": 'my-tweets',
+  "domId": 'tweets2',
   "maxTweets": 3,
   "enableLinks": true,
   "showUser": false,
