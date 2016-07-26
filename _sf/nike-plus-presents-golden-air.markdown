@@ -37,8 +37,9 @@ net-registrants: TBD – coming later this afternoon
 tag: SNKRS
 top-tweet-1: https://twitter.com/NikeSF/status/757630248083189760 - 15,753 Impressions,
   4,422 Engagements, 28.1% Engagement Rate ( vs. average 3%)
-top-tweet-2: https://twitter.com/NikeSF/status/757000611430821890 - 17,292 Impressions,
-  4,172 Engagements, 24.1% Engagement Rate ( vs. average 3%)
+top-tweet-2: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Strike fast. More spots are open for the GOLDEN AIR Box. Book a spot: <a href="https://t.co/LXAW7rLRv6">https://t.co/LXAW7rLRv6</a> <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://t.co/AXIJAnWofC">pic.twitter.com/AXIJAnWofC</a></p>&mdash; Nike San Francisco (@NikeSF) <a href="https://twitter.com/NikeSF/status/757000611430821890">July 23, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> - 17,292 Impressions, 4,172 Engagements, 24.1% Engagement Rate ( vs. average 3%)
 top-tweet-3: https://twitter.com/NikeSF/status/756638593892904964 - 27,492 Impressions,
   6,615 Engagements, 24.1% Engagement Rate ( vs. average 3%)
 layout: post
