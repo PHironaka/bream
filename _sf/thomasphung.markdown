@@ -1,5 +1,6 @@
 ---
 title: _thomasphung
+snkrs-tweets: SNKRS
 ---
 
 I ain't sayin she a gold digger 
