@@ -3,8 +3,8 @@ title: Nike+ SNKRS Presents Golden Air BOX
 date: 2016-07-20 17:13:00 Z
 background-post-image: "/uploads/IMG_0058.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
-engagement-rate: 3.05%
-impressions: 3 million
+engagement-rate: 9.3% (vs. average 3%)
+impressions: '356,800'
 new-followers: 190
 photographer-assets:
 - "/uploads/IMG_0077.JPG"
