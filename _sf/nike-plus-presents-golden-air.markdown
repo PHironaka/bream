@@ -23,6 +23,14 @@ city-name: San Francisco
 instagram-asset:
 - "/uploads/IMG_0063-d3d8b3.JPG"
 - "/uploads/IMG_0062-069fe6.JPG"
+twitter-asset:
+- "/uploads/IMG_0017%202.JPG"
+- "/uploads/IMG_0015%202.JPG"
+- "/uploads/IMG_0014%202.JPG"
+- "/uploads/IMG_0013%202.JPG"
+- "/uploads/IMG_0005%202.JPG"
+- "/uploads/IMG_0006%202.JPG"
+- "/uploads/IMG_0010%202.JPG"
 layout: post
 ---
 
