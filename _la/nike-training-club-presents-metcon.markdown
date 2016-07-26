@@ -12,6 +12,7 @@ file:
 background_color: "#efff68"
 tag: Basketball
 city-name: Los Angeles
+tweet: jordan
 layout: post
 ---
 
