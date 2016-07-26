@@ -3,6 +3,8 @@ title: Nike+ Jordan Air Hangar
 date: 2016-07-09 16:51:00 Z
 categories:
 - hero
+tags:
+- Basketball
 position: 0
 img: IMG_0006.JPG
 city-page: Group-2.png
@@ -34,7 +36,6 @@ asset:
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
-tag: Basketball
 influencer-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"

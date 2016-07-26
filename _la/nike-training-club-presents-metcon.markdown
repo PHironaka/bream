@@ -1,6 +1,8 @@
 ---
 title: Nike Training Club Presents Metcon
 date: 2016-07-25 23:27:00 Z
+tags:
+- Basketball
 img: 2016-07-25.jpg
 city-page: Group-2.png
 engagement: 3.05%
@@ -10,7 +12,6 @@ impressions: 3 million
 file:
 - "/uploads/2016-07-25.jpg"
 background_color: "#efff68"
-tag: Basketball
 city-name: Los Angeles
 tweet: jordan
 layout: post
