@@ -39,7 +39,7 @@ influencer-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-tweet-list: SNKRS
+tweet-list: JORDAN
 layout: post
 ---
 
