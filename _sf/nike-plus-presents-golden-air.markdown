@@ -35,6 +35,8 @@ city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for ci
 total-revenue: TBD – coming later this afternoon
 net-registrants: TBD – coming later this afternoon
 tag: SNKRS
+top-tweet-1: https://twitter.com/NikeSF/status/757630248083189760 - 15,753 Impressions,
+  4,422 Engagements, 28.1% Engagement Rate ( vs. average 3%)
 layout: post
 ---
 
