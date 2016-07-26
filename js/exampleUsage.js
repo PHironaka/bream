@@ -89,6 +89,25 @@ var config1 = {
 };
 twitterFetcher.fetch(config1);
 
+var config3 = {
+  "id": '756276020865601537',
+  "domId": 'example3',
+  "showInteraction": false,
+  "maxTweets": 6,
+  "showUser": true,
+  "enableLinks": true
+  };
+  twitterFetcher.fetch(config3);
+
+var config3 = {
+  "id": '757983810642325504',
+  "domId": 'example3a',
+  "maxTweets": 5,
+  "enableLinks": true,
+  "showImages": true
+};
+twitterFetcher.fetch(config3);
+
 
 // ##### Simple example 2 #####
 // A simple example to get my latest 5 of my favourite tweets and write to a
