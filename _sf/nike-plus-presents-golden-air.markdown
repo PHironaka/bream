@@ -30,6 +30,8 @@ twitter-asset:
 - "/uploads/IMG_0013%202.JPG"
 city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for city
   pages in the US vs. weekly 3,000 city page views)
+total-revenue: TBD – coming later this afternoon
+net-registrants: TBD – coming later this afternoon
 layout: post
 ---
 
