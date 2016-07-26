@@ -1,12 +1,12 @@
 ---
 title: Nike+ Presents Golden Air
 date: 2016-07-20 17:13:00 Z
-img: IMG_0058.JPG
-city-page: Group-2.png
-engagement: 3.05%
+background-post-image: "/uploads/IMG_0058.JPG"
+city-page-mobile: Group-2.png
+engagement-rate: 3.05%
 impressions: 3 million
-new-followrs: 190
-file:
+new-followers: 190
+photographer-assets:
 - "/uploads/IMG_0077.JPG"
 - "/uploads/IMG_0073.JPG"
 - "/uploads/IMG_0061.JPG"
@@ -20,7 +20,7 @@ file:
 tweet-list: SNKRS
 background_color: "#fd4141"
 city-name: San Francisco
-asset:
+instagram-asset:
 - "/uploads/IMG_0063-d3d8b3.JPG"
 - "/uploads/IMG_0062-069fe6.JPG"
 layout: post
