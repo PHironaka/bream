@@ -11,7 +11,7 @@ layout: default
       <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
 
   <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-
+<h2><a class="archive-date" >{{ page.date | date: "%m.%d.%Y" }}</a></h2>
     </div>
 </div>
 <div class="wrapper">
@@ -42,24 +42,28 @@ layout: default
 <div class="event-tweets">
 <h1>{{ page.city }} Consumer Sentiment </h1>
 
+  <div class="user-tweets">
+    {% for user-tweet in site.user-tweets limit:10 %}
 
-  {% if page.tweet  =='SNKRS'   %}
-<div id="user-tweets">
-</div>
-{% endif %}
+<h1>{{user-tweet.title }} </h1>
+<p> {{user-tweet.content}}</p>
+{% endfor %}
 
-  {% if page.tweet  =='jordan'   %}
-<div id="influencer-tweets">
 </div>
-{% endif %}
+
+
+
+
 
 
 <div class="user-instas">
-  {% for asset in page.asset %}
-<img src="{{ asset }}">
+  {% for snkrs-instagram in site.snkrs-instagram %}
+<img src="{{ snkrs-instagram.image }}">
 {% endfor %}
 </div>
 </div>
+
+
 
 
 <div class="event-photos">

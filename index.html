@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
   <div class="event-list">
     <div class="wrapper">
 </div>
@@ -18,7 +20,7 @@ layout: default
         <h1>
           {{ la.title }}
         </h1>
-
+<h2><a class="archive-date" >{{ la.date | date: "%m.%d.%Y" }}</a></h2>
 </div>
       </div></a>
 {% endfor %}
@@ -36,6 +38,7 @@ layout: default
     <h1>
       {{ sf.title }}
     </h1>
+    <h2><a class="archive-date" >{{ sf.date | date: "%m.%d.%Y" }}</a></h2>
 
 </div>
   </div></a>

@@ -7,7 +7,7 @@ layout: default
 
 
 <div class="city">
-  {% for la in site.la %}
+  {% for la in site.la limit:1 %}
   <div class="post-color" style=" background:{{la.background_color}};">  </div>
   {% endfor %}
 
