@@ -41,8 +41,9 @@ top-tweet-1: |-
 top-tweet-2: |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Strike fast. More spots are open for the GOLDEN AIR Box. Book a spot: <a href="https://t.co/LXAW7rLRv6">https://t.co/LXAW7rLRv6</a> <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://t.co/AXIJAnWofC">pic.twitter.com/AXIJAnWofC</a></p>&mdash; Nike San Francisco (@NikeSF) <a href="https://twitter.com/NikeSF/status/757000611430821890">July 23, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> - 17,292 Impressions, 4,172 Engagements, 24.1% Engagement Rate ( vs. average 3%)
-top-tweet-3: https://twitter.com/NikeSF/status/756638593892904964 - 27,492 Impressions,
-  6,615 Engagements, 24.1% Engagement Rate ( vs. average 3%)
+top-tweet-3: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Nike Air Foamposite &#39;Liquid Sole&#39;. Exclusive, limited packaging available at the GOLDEN AIR Box. <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://t.co/kgQNsVNQek">pic.twitter.com/kgQNsVNQek</a></p>&mdash; Nike San Francisco (@NikeSF) <a href="https://twitter.com/NikeSF/status/756638593892904964">July 22, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> - 27,492 Impressions, 6,615 Engagements, 24.1% Engagement Rate ( vs. average 3%)
 layout: post
 ---
 
