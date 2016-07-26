@@ -30,12 +30,12 @@ city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
-asset:
+instagram-asset:
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
 - "/uploads/IMG_0002.JPG"
-influencer-asset:
+twitter-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
