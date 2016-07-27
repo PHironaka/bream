@@ -57,6 +57,20 @@ top-tweet-2: 37,548 Impressions, 5,217 Engagements, 13.9% Engagement Rate (vs. 4
   average)
 top-tweet-3: 143,757 Impressions, 16,387 Engagements, 11.4% Engagement Rate (vs. 4%
   average)
+consumer-twitter-asset:
+- |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yoooo <a href="https://twitter.com/Airdogg55">@Airdogg55</a> legit dunked over <a href="https://twitter.com/clipperdarrell">@clipperdarrell</a> at the Air Hangar <a href="https://twitter.com/hashtag/unlimitedtogether?src=hash">#unlimitedtogether</a> <a href="https://t.co/8b7iHf8EWV">pic.twitter.com/8b7iHf8EWV</a></p>&mdash; Alex Dubov (@AlexDubov) <a href="https://twitter.com/AlexDubov/status/757094171639361536">July 24, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+- "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Nike
+  air hangar is lit \U0001F64C\U0001F3FC</p>&mdash; Boots the Shredder (@noahatenza)
+  <a href=\"https://twitter.com/noahatenza/status/756988434451800064\">July 23, 2016</a></blockquote>\n<script
+  async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+- |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Bruh the Nike Air Hanger musta been crazy lit... <a href="https://t.co/yDGLeDvPeY">pic.twitter.com/yDGLeDvPeY</a></p>&mdash; Thank You Wade (@white_rayAllen) <a href="https://twitter.com/white_rayAllen/status/757287458165972992">July 24, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+- |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Even Chris brown got involved in the dunk contest on Saturday at the Nike air hanger <a href="https://t.co/UCVK0ObRWS">pic.twitter.com/UCVK0ObRWS</a></p>&mdash; NICK HAMILTON (@NickHamiltonLA) <a href="https://twitter.com/NickHamiltonLA/status/757256742191239168">July 24, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 layout: post
 ---
 
