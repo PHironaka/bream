@@ -28,7 +28,7 @@ photographer-assets:
 tweet-list: SNKRS
 background_color: "#fd4141"
 city-name: San Francisco
-instagram-asset:
+local-team-asset:
 - |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/KDTrey5">@KDTrey5</a> &amp; <a href="https://twitter.com/Money23Green">@Money23Green</a> surprise <a href="https://twitter.com/hashtag/DubNation?src=hash">#DubNation</a> at the Golden Air Box! <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://t.co/7jXKqkhTPl">pic.twitter.com/7jXKqkhTPl</a></p>&mdash; GoldenStateWarriors (@warriors) <a href="https://twitter.com/warriors/status/757744698240868352">July 26, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -42,7 +42,7 @@ instagram-asset:
   GoldenStateWarriors (@warriors) <a href=\"https://twitter.com/warriors/status/757753111586873345\">July
   26, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
   charset=\"utf-8\"></script>"
-twitter-asset:
+consumer-twitter-asset:
 - |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">These two are really on the same squad...<br><br>Shouts to the whole <a href="https://twitter.com/Nike">@nike</a> family for a dope event <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://twitter.com/hashtag/GoldenAir?src=hash">#GoldenAir</a> <a href="https://t.co/4Rj8MHfx8n">pic.twitter.com/4Rj8MHfx8n</a></p>&mdash; ACEN. (@AYES0N) <a href="https://twitter.com/AYES0N/status/757809350706548737">July 26, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -52,7 +52,6 @@ twitter-asset:
 - |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">S/O <a href="https://twitter.com/NikeSF">@NikeSF</a> <a href="https://twitter.com/Nike">@nike</a> <a href="https://twitter.com/nikebasketball">@nikebasketball</a> &amp; BIG Thank you to <a href="https://twitter.com/KDTrey5">@KDTrey5</a> <a href="https://twitter.com/Money23Green">@Money23Green</a> for signing! <a href="https://twitter.com/ROSGO21">@ROSGO21</a> <a href="https://twitter.com/hashtag/GoldenAir?src=hash">#GoldenAir</a> <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> <a href="https://t.co/wQyi1I318h">pic.twitter.com/wQyi1I318h</a></p>&mdash; Mike (@mbwu11) <a href="https://twitter.com/mbwu11/status/757950076098453504">July 26, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-- "/uploads/IMG_0013%202.JPG"
 city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for city
   pages in the US vs. weekly 3,000 city page views)
 total-revenue: TBD – coming later this afternoon
