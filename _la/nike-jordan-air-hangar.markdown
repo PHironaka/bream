@@ -71,6 +71,18 @@ consumer-twitter-asset:
 - |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Even Chris brown got involved in the dunk contest on Saturday at the Nike air hanger <a href="https://t.co/UCVK0ObRWS">pic.twitter.com/UCVK0ObRWS</a></p>&mdash; NICK HAMILTON (@NickHamiltonLA) <a href="https://twitter.com/NickHamiltonLA/status/757256742191239168">July 24, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+local-team-headline: Drew League
+local-team-asset:
+- "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\"><a
+  href=\"https://twitter.com/hashtag/thedrew?src=hash\">#thedrew</a> is over at the
+  Nike + Jordan Air Hangar tonight. <br><br>See more on our snapchat.<br><br>\U0001F47B
+  TheDrewLeague <a href=\"https://t.co/UWEyoGLqwe\">pic.twitter.com/UWEyoGLqwe</a></p>&mdash;
+  Drew League (@DrewLeague) <a href=\"https://twitter.com/DrewLeague/status/757003227875438592\">July
+  24, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
+  charset=\"utf-8\"></script>"
+- |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Commissioner Smiley remembers the late Hank Salvatori before Hank&#39;s Houdini&#39;s All-Stars vs. Salvatori&#39;s <a href="https://twitter.com/NoShnacks">@NoShnacks</a> <a href="https://t.co/b2dB4zianj">pic.twitter.com/b2dB4zianj</a></p>&mdash; Drew League (@DrewLeague) <a href="https://twitter.com/DrewLeague/status/757004229827375104">July 24, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 layout: post
 ---
 
