@@ -42,6 +42,16 @@ twitter-asset:
 tweet-list: JORDAN
 net-registrants: Need to get from Brandon
 total-revenue: TBD
+snapchat-views: '323,736'
+top-tweet-embed-1: https://twitter.com/NikeLA/status/756217188609060864
+top-tweet-embed-2: 'https://twitter.com/NikeLA/status/755506246682308608 '
+top-tweet-embed-3: 'https://twitter.com/NikeLA/status/757045013331062785 '
+page.top-tweet-1: 16,762 Impressions, 2,519 Engagements, 15% Engagement Rate (vs.
+  4% average)
+page.top-tweet-2: 37,548 Impressions, 5,217 Engagements, 13.9% Engagement Rate (vs.
+  4% average)
+page.top-tweet-3: 143,757 Impressions, 16,387 Engagements, 11.4% Engagement Rate (vs.
+  4% average)
 layout: post
 ---
 
