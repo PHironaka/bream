@@ -84,7 +84,10 @@ local-team-asset:
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Commissioner Smiley remembers the late Hank Salvatori before Hank&#39;s Houdini&#39;s All-Stars vs. Salvatori&#39;s <a href="https://twitter.com/NoShnacks">@NoShnacks</a> <a href="https://t.co/b2dB4zianj">pic.twitter.com/b2dB4zianj</a></p>&mdash; Drew League (@DrewLeague) <a href="https://twitter.com/DrewLeague/status/757004229827375104">July 24, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 inluencer-name: KUSTOO
-inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+inluencer-link:
+- https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
+- https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+Field name: 
 layout: post
 ---
 
