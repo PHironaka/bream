@@ -56,7 +56,6 @@ city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for ci
   pages in the US vs. weekly 3,000 city page views)
 total-revenue: TBD – coming later this afternoon
 net-registrants: TBD – coming later this afternoon
-tag: SNKRS
 top-tweet-1: 15,753 Impressions, 4,422 Engagements, 28.1% Engagement Rate ( vs. average
   3%)
 top-tweet-2: 17,292 Impressions, 4,172 Engagements, 24.1% Engagement Rate ( vs. average
