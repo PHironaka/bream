@@ -381,7 +381,7 @@ margin: 0 ;
     width: 31.76157%;
     margin: 0;
     padding: 12px 12px 12px 0;
-    
+
 
 
 
@@ -452,6 +452,10 @@ margin: 0 ;
   @include outer-container;
   border-bottom: 1px solid #eee;
   margin-bottom: 3em;
+}
+
+.user-instas {
+  padding-top: 2em;
 }
 
 .event-photos {
