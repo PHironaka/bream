@@ -11,7 +11,7 @@ layout: default
       <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
 
   <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-
+<h2><a class="archive-date" >{{ page.date | date: "%m.%d.%Y" }}</a></h2>
     </div>
 </div>
 <div class="wrapper">
@@ -34,6 +34,9 @@ layout: default
       <h3>Registrants through NET:</h3> <p> {{ page.net-registrants }}</p>
 
       <h3>Total Revenue:</h3> <p> {{ page.total-revenue }}</p>
+{% if page.snapchat-views %}
+      <h3>Total Snapchat Views:</h3> <p> {{ page.snapchat-views }}</p>
+  {% endif %}
 
     </div>
       </div>
@@ -44,27 +47,49 @@ layout: default
 </div>
 
 <div class="event-engagement">
-<h1>User Engagement </h1>
+
   <div class="user-tweets">
-  {% for asset in page.twitter-asset %}
-<img src="{{ asset }}">
+    <h1>Consumer Sentiment</h1>
+  {% for asset in page.consumer-twitter-asset %}
+  <p> {{ asset }}</p>
 {% endfor %}
 </div>
+
+
+  <div class="user-tweets">
+    <h1>Top Performing Tweets </h1>
+    {{ page.top-tweet-embed-1 }}
+    <p> {{ page.top-tweet-1 }}</p>
+    {{ page.top-tweet-embed-2 }}
+    <p> {{ page.top-tweet-2 }}</p>
+    {{ page.top-tweet-embed-3 }}
+    <p> {{ page.top-tweet-3 }}</p>
+</div>
+
+</div>
+
 
 <div class="user-instas">
-  {% for asset in page.instagram-asset %}
-<img src="{{ asset }}">
-{% endfor %}
-</div>
-</div>
+{% if page.local-team-asset %}
 
+  <h1>{{ page.local-team-headline }}</h1>
+  <p> {{ page.local-team-asset }}</p>
+  {% endif %}
+  </div>
+
+
+
+
+
+
+<div class="event-engagement">
 
 <div class="event-photos">
-  <h1>Event Photos </h1>
+  <h1>Event Photography </h1>
 
   {% for photographer-assets in page.photographer-assets %}
 <img src="{{ photographer-assets }}">
 {% endfor %}
-</div>
+</div></div>
 
   </div>
