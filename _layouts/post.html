@@ -34,9 +34,9 @@ layout: default
       <h3>Registrants through NET:</h3> <p> {{ page.net-registrants }}</p>
 
       <h3>Total Revenue:</h3> <p> {{ page.total-revenue }}</p>
-
-
-
+{% if page.snapchat-views %}
+      <h3>Total Snapchat Views:</h3> <p> {{ page.snapchat-views }}</p>
+  {% endif %}
 
     </div>
       </div>
@@ -72,8 +72,8 @@ layout: default
 <div class="user-instas">
 {% if page.local-team-asset %}
 
-  <h1>Warriors Social Posts</h1>
-  <p> {{ asset }}</p>
+  <h1>{{ page.local-team-headline }}</h1>
+  <p> {{ page.local-team-asset }}</p>
   {% endif %}
   </div>
 
