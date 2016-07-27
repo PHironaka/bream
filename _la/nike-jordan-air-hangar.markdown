@@ -40,6 +40,8 @@ twitter-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
+net-registrants: Need to get from Brandon
+total-revenue: TBD
 layout: post
 ---
 
