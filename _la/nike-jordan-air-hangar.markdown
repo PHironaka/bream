@@ -85,8 +85,7 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 inluencer-name: KUSTOO
 inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
-influencer-attendance:
-- Dennis Todisco
+influencer-attendance: Dennis Todisco
 layout: post
 ---
 
