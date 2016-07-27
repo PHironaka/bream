@@ -86,7 +86,7 @@ local-team-asset:
 inluencer-name: KUSTOO
 inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 influencer-attendance:
-- "@_alexisq"
+- Dennis Todisco
 layout: post
 ---
 
