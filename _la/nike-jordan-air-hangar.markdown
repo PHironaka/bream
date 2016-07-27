@@ -43,9 +43,15 @@ tweet-list: JORDAN
 net-registrants: Need to get from Brandon
 total-revenue: TBD
 snapchat-views: '323,736'
-top-tweet-embed-1: https://twitter.com/NikeLA/status/756217188609060864
-top-tweet-embed-2: 'https://twitter.com/NikeLA/status/755506246682308608 '
-top-tweet-embed-3: 'https://twitter.com/NikeLA/status/757045013331062785 '
+top-tweet-embed-1: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">SoCal bound. Nike + Jordan celebrate hoop culture at the Air Hangar, 7.23-24. Book: <a href="https://t.co/qN9D3VTyhu">https://t.co/qN9D3VTyhu</a> <a href="https://twitter.com/hashtag/UNITE?src=hash">#UNITE</a> <a href="https://t.co/tFqsjHv0Oi">pic.twitter.com/tFqsjHv0Oi</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/756217188609060864">July 21, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+top-tweet-embed-2: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">One team. One goal. Book your spot for the Nike + Jordan Air Hangar, starting 7.23: <a href="https://t.co/VljKDMgkLg">https://t.co/VljKDMgkLg</a> <a href="https://twitter.com/hashtag/UNITE?src=hash">#UNITE</a> <a href="https://t.co/fpWByovtGt">pic.twitter.com/fpWByovtGt</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/755506246682308608">July 19, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+top-tweet-embed-3: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">LA’s very own. <br><br>The <a href="https://twitter.com/DrewLeague">@drewleague</a>, <a href="https://twitter.com/hashtag/unlimitedtogether?src=hash">#unlimitedtogether</a>. <a href="https://t.co/fdsayDj2IP">pic.twitter.com/fdsayDj2IP</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/757045013331062785">July 24, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 top-tweet-1: 16,762 Impressions, 2,519 Engagements, 15% Engagement Rate (vs. 4% average)
 top-tweet-2: 37,548 Impressions, 5,217 Engagements, 13.9% Engagement Rate (vs. 4%
   average)
