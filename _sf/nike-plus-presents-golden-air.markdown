@@ -56,6 +56,7 @@ city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for ci
   pages in the US vs. weekly 3,000 city page views)
 total-revenue: TBD – coming later this afternoon
 net-registrants: TBD – coming later this afternoon
+tag: SNKRS
 top-tweet-1: 15,753 Impressions, 4,422 Engagements, 28.1% Engagement Rate ( vs. average
   3%)
 top-tweet-2: 17,292 Impressions, 4,172 Engagements, 24.1% Engagement Rate ( vs. average
@@ -79,6 +80,7 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
   San Francisco (@NikeSF) <a href=\"https://twitter.com/NikeSF/status/756638593892904964\">July
   22, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
   charset=\"utf-8\"></script> "
+local-team-headline: Warriors Social Posts
 layout: post
 ---
 
