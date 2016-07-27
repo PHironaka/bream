@@ -87,7 +87,6 @@ inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 influencers-attending:
 - Andre Iguodala
 - Red Gaskell
-- 
 layout: post
 ---
 
