@@ -80,6 +80,7 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
   22, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
   charset=\"utf-8\"></script> "
 local-team-headline: Warriors Social Posts
+tag: SNKRS
 layout: post
 ---
 
