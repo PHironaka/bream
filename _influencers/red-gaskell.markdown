@@ -6,9 +6,9 @@ image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
 events-attended:
-- Nike+ Jordan Air Hangar: Russell Westbrook's Future and the 'Miami Vice' Movie's
-    10-Year Anniversary With Bill Simmons
-  sdfas: nd the 'Miami Vice' Movie's 10-Year Anniver
+- Nike+ Jordan Air Hangar: 7,251 followers7,251 followersv7,251 followersf
+- Object MEtcon: 7,251 foll7,251 foll7,251 foll7,251 foll7,251 foll7,251 foll7,251
+    foll
 layout: city
 ---
 
