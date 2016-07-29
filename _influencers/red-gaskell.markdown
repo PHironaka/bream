@@ -7,7 +7,7 @@ instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
 events-attended:
   Nike+ Jordan Air Hangar:
-    link: https://soundcloud.com/stream
+    event: https://soundcloud.com/stream
 layout: city
 ---
 
