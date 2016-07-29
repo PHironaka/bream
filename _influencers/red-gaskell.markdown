@@ -6,10 +6,8 @@ image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
 events-attended:
-  Nike+ Jordan Air Hangar:
-    event: https://soundcloud.com/stream
-  Firey:
-    event: New key/value pairsvsvsda
+- Nike+ Jordan Air Hangar: Russell Westbrook's Future and the 'Miami Vice' Movie's
+    10-Year Anniversary With Bill Simmons
 layout: city
 ---
 
