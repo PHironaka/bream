@@ -85,9 +85,8 @@ local-team-asset:
 tag: Basketball
 location: LA
 in-attendence:
-  people: Denny
-  tweet: I’d like to display the influencer’s name, profile pic, and tweet they made
-    at the given event.
+  people: bryan
+  tweet: le pic, and tweet they made at the given event.
 layout: post
 ---
 
