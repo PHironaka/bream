@@ -87,6 +87,7 @@ location: LA
 influencer-asset:
 - https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
 - https://www.instagram.com/p/BIOftJUASJI/
+- https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
 layout: post
 ---
 
