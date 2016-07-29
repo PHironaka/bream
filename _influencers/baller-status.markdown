@@ -2,7 +2,7 @@
 title: Baller Status
 date: 2016-07-29 20:18:00 Z
 city: LA
-image: "/uploads/AqxYuPLN.png"
+image: "/uploads/11849258_740314229407353_1065966941_a.jpg"
 events: Nike+ Jordan Air Hangar
 ---
 
