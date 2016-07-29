@@ -86,8 +86,9 @@ tag: Basketball
 location: LA
 in-attendence:
   name:
-  - "@_alexisq": I’d like to display the influencer’s name, profile pic, and tweet
-      they made at the given event.
+  - alexis
+  tweet: I’d like to display the influencer’s name, profile pic, and tweet they made
+    at the given event.
 layout: post
 ---
 
