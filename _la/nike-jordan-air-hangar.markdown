@@ -87,6 +87,7 @@ location: LA
 in-attendence:
   people: bryan
   tweet: le pic, and tweet they made at the given event.
+Field name: 
 layout: post
 ---
 
