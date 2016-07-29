@@ -84,8 +84,7 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 influencers:
-- Jason Markk
-- "@_alexisq"
+  name: "@_alexisq"
 tag: Basketball
 location: LA
 layout: post
