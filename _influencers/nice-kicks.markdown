@@ -5,3 +5,4 @@ city: LA
 image: "/uploads/nice-kicks.png"
 ---
 
+The premier spot for sneaker news, info, & history.
