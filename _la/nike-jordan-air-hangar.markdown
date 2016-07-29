@@ -9,7 +9,7 @@ position: 0
 background-post-image: "/uploads/IMG_0006.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: " 8.7% (vs. 4% average)"
-new-followers: 178
+new-followers: 83
 city-page-views: '2,400'
 impressions: '401,428'
 photographer-assets:
@@ -39,8 +39,8 @@ twitter-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
-net-registrants: Need to get from Brandon
-total-revenue: TBD
+net-registrants: '1,480'
+total-revenue: '1,093'
 snapchat-views: '323,736'
 top-tweet-embed-1: |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">SoCal bound. Nike + Jordan celebrate hoop culture at the Air Hangar, 7.23-24. Book: <a href="https://t.co/qN9D3VTyhu">https://t.co/qN9D3VTyhu</a> <a href="https://twitter.com/hashtag/UNITE?src=hash">#UNITE</a> <a href="https://t.co/tFqsjHv0Oi">pic.twitter.com/tFqsjHv0Oi</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/756217188609060864">July 21, 2016</a></blockquote>
