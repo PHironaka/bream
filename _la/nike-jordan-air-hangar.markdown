@@ -26,7 +26,6 @@ photographer-assets:
 - "/uploads/IMG_0020.JPG"
 - "/uploads/IMG_0019.JPG"
 - "/uploads/IMG_0076.JPG"
-city: LA
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
@@ -88,6 +87,7 @@ influencers:
 - Andre Iguodala
 - Red Gaskell
 tag: Basketball
+city: LA
 layout: post
 ---
 
