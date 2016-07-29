@@ -84,7 +84,6 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 tag: Basketball
 location: LA
-Field name: 
 layout: post
 ---
 
