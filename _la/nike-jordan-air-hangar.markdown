@@ -84,9 +84,6 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 tag: Basketball
 location: LA
-in-attendence:
-  people: bryan
-  tweet: le pic, and tweet they made at the given event.
 Field name: 
 layout: post
 ---
