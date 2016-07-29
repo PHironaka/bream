@@ -6,8 +6,7 @@ image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
 events-attended:
-  Nike+ Jordan Air Hangar:
-    link: https://soundcloud.com/stream
+  Nike+ Jordan Air Hangar: https://soundcloud.com/stream
 layout: city
 ---
 
