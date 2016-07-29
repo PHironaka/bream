@@ -86,6 +86,7 @@ tag: Basketball
 location: LA
 influencer-asset:
 - https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
+- https://www.instagram.com/p/BIOftJUASJI/
 layout: post
 ---
 
