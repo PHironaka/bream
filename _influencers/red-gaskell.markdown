@@ -5,7 +5,7 @@ city: SF
 image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
-layout: page
+layout: city
 ---
 
 Bio: Community Manager @ Everlane. 
