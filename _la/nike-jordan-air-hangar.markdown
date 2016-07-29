@@ -87,6 +87,7 @@ location: LA
 in-attendence:
   name:
   - alexis
+  - bry
   tweet: I’d like to display the influencer’s name, profile pic, and tweet they made
     at the given event.
 layout: post
