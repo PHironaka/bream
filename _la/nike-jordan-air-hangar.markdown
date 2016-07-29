@@ -85,6 +85,7 @@ local-team-asset:
 inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 influencers:
   name: "@_alexisq"
+  tweet: https://www.facebook.com/KicksonFireFans/
 tag: Basketball
 location: LA
 layout: post
