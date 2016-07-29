@@ -6,7 +6,8 @@ image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
 events-attended:
-  Nike+ Jordan Air Hangar: Nike+ Jordan A7,251 followers fsfasdfir Hangar
+  Nike+ Jordan Air Hangar:
+    event: Nike+ Jordan Air Hangar
 layout: city
 ---
 
