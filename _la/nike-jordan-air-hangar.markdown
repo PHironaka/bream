@@ -84,6 +84,13 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 tag: Basketball
 location: LA
+influencer-asset: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\"
+  dir=\"ltr\"><a href=\"https://twitter.com/hashtag/thedrew?src=hash\">#thedrew</a>
+  is over at the Nike + Jordan Air Hangar tonight. <br><br>See more on our snapchat.<br><br>\U0001F47B
+  TheDrewLeague <a href=\"https://t.co/UWEyoGLqwe\">pic.twitter.com/UWEyoGLqwe</a></p>&mdash;
+  Drew League (@DrewLeague) <a href=\"https://twitter.com/DrewLeague/status/757003227875438592\">July
+  24, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
+  charset=\"utf-8\"></script>"
 layout: post
 ---
 
