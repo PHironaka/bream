@@ -81,6 +81,7 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
   charset=\"utf-8\"></script> "
 local-team-headline: Warriors Social Posts
 tag: SNKRS
+influencers: Red Gaskell
 layout: post
 ---
 
