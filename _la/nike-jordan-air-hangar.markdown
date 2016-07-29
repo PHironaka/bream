@@ -88,6 +88,7 @@ influencer-asset:
 - https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
 - https://www.instagram.com/p/BIOftJUASJI/
 - https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
+- https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
 layout: post
 ---
 
