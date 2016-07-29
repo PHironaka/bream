@@ -8,6 +8,7 @@ events: Nike+ Jordan Air Hangar
 events-attended:
 - Nike+ Jordan Air Hangar: Russell Westbrook's Future and the 'Miami Vice' Movie's
     10-Year Anniversary With Bill Simmons
+  sdfas: nd the 'Miami Vice' Movie's 10-Year Anniver
 layout: city
 ---
 
