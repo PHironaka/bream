@@ -84,10 +84,10 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 inluencer-link: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 influencers:
-- Andre Iguodala
-- Red Gaskell
+- Jason Markk
+- "@_alexisq"
 tag: Basketball
-city: LA
+location: LA
 layout: post
 ---
 
