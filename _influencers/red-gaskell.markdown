@@ -5,8 +5,7 @@ city: SF
 image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events: Nike+ Jordan Air Hangar
-events-attended:
-  Nike+ Jordan Air Hangar: https://soundcloud.com/stream
+Key: 
 layout: city
 ---
 
