@@ -8,6 +8,8 @@ events: Nike+ Jordan Air Hangar
 events-attended:
   Nike+ Jordan Air Hangar:
     event: https://soundcloud.com/stream
+  Firey:
+    event: New key/value pairsvsvsda
 layout: city
 ---
 
