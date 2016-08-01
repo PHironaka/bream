@@ -54,7 +54,7 @@ consumer-twitter-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for city
   pages in the US vs. weekly 3,000 city page views)
-total-revenue: TBD – coming later this afternoon
+attendees: '1,470'
 net-registrants: '4,214'
 top-tweet-1: 15,753 Impressions, 4,422 Engagements, 28.1% Engagement Rate ( vs. average
   3%)
