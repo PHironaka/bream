@@ -7,7 +7,7 @@ background-post-image: "/uploads/IMG_0058.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: 9.3% (vs. average 3%)
 impressions: '356,800'
-new-followers: 190
+new-followers: 279
 photographer-assets:
 - "/uploads/IMG_0077.JPG"
 - "/uploads/IMG_0073.JPG"
