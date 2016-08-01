@@ -7,4 +7,4 @@ events:
   name: Nike+ Jordan Air Hangar
 ---
 
-Sneaker News & Updates | Performance Reviews | Use #kicksologists to show off your kicks!
+Sneaker News & Updates. Performance Reviews. Use #kicksologists to show off your kicks!
