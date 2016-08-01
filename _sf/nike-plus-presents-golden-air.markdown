@@ -82,6 +82,22 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
 local-team-headline: Warriors Social Posts
 tag: SNKRS
 influencers: Red Gaskell
+influencer-asset:
+- https://twitter.com/KDTrey5/status/757635454959292416
+- 'https://www.instagram.com/p/BIMi1kTA4EO/?taken-by=hueman_ '
+- 'https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre '
+- https://twitter.com/ROSGO21/status/757732595970879488
+- " https://www.instagram.com/acervan316"
+- https://twitter.com/briantong/status/757751305834160128
+- https://twitter.com/NBowman53/status/757615181258186752
+- https://www.instagram.com/p/BIT_CH5DH6_/
+- https://twitter.com/DennisTodisco/status/757758328181096448
+- https://twitter.com/juliephayer/status/757766851011026944
+- https://twitter.com/redgaskell/status/757771486425780224
+- https://twitter.com/danielbru/status/757391019516137472
+- https://www.instagram.com/p/BINmmxFAYet/?taken-by=gofitjo
+- https://twitter.com/appleidinesh/status/756889677043412993
+- https://www.instagram.com/p/BIMGSkShJWXHVH2ycdMXr0bqaZ5VHQv6mEeJCo0/?taken-by=missgallo
 layout: post
 ---
 
