@@ -33,7 +33,7 @@ layout: default
 
       <h3>Registrants through NET:</h3> <p> {{ page.net-registrants }}</p>
 
-      <h3>Total Revenue:</h3> <p> {{ page.total-revenue }}</p>
+      <h3>Total Attendees:</h3> <p> {{ page.attendees }}</p>
 {% if page.snapchat-views %}
       <h3>Total Snapchat Views:</h3> <p> {{ page.snapchat-views }}</p>
   {% endif %}
@@ -43,6 +43,28 @@ layout: default
 
 <div class="event-city-page">
 <img src="{{ page.city-page-mobile-asset }}">
+</div>
+</div>
+
+<div class="event-engagement">
+
+  <div class="influencer-attending">
+    <h1>Influencers in Attendence</h1>
+{% for influencers in site.influencers %}
+{% if influencers.events.name contains page.title %}
+
+    <img src="{{ influencers.image }}">
+
+
+{% endif %}
+{% endfor %}
+</div>
+<div class="influencer-attending-content">
+{% for influencer-asset in page.influencer-asset %}
+<a href="{{ influencer-asset }}" target="_blank"> {{ influencer-asset }}</a>
+{% endfor %}
+
+
 </div>
 </div>
 

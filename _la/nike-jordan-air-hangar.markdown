@@ -9,7 +9,7 @@ position: 0
 background-post-image: "/uploads/IMG_0006.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: " 8.7% (vs. 4% average)"
-new-followers: 178
+new-followers: 83
 city-page-views: '2,400'
 impressions: '401,428'
 photographer-assets:
@@ -26,7 +26,6 @@ photographer-assets:
 - "/uploads/IMG_0020.JPG"
 - "/uploads/IMG_0019.JPG"
 - "/uploads/IMG_0076.JPG"
-city: "@NikeSF"
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
@@ -40,8 +39,8 @@ twitter-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
-net-registrants: Need to get from Brandon
-total-revenue: TBD
+net-registrants: '1,480'
+attendees: '1,093'
 snapchat-views: '323,736'
 top-tweet-embed-1: |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">SoCal bound. Nike + Jordan celebrate hoop culture at the Air Hangar, 7.23-24. Book: <a href="https://t.co/qN9D3VTyhu">https://t.co/qN9D3VTyhu</a> <a href="https://twitter.com/hashtag/UNITE?src=hash">#UNITE</a> <a href="https://t.co/tFqsjHv0Oi">pic.twitter.com/tFqsjHv0Oi</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/756217188609060864">July 21, 2016</a></blockquote>
@@ -83,6 +82,15 @@ local-team-asset:
 - |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Commissioner Smiley remembers the late Hank Salvatori before Hank&#39;s Houdini&#39;s All-Stars vs. Salvatori&#39;s <a href="https://twitter.com/NoShnacks">@NoShnacks</a> <a href="https://t.co/b2dB4zianj">pic.twitter.com/b2dB4zianj</a></p>&mdash; Drew League (@DrewLeague) <a href="https://twitter.com/DrewLeague/status/757004229827375104">July 24, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+tag: Basketball
+location: LA
+influencer-asset:
+- https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
+- https://www.instagram.com/p/BIOftJUASJI/
+- https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
+- https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
+- https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+- https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
 layout: post
 ---
 
