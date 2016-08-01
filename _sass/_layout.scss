@@ -420,6 +420,92 @@ margin: 0 ;
  * Posts
  */
 
+ #user-tweets, #jordan-tweets, .user-tweets {
+   @include span-columns(6);
+
+   ul {
+     li {
+       margin: 1em 0;
+       padding: 1em 0;
+       border-bottom: 1px solid #eee;
+         &:last-child {
+           border-bottom: none;
+         }
+     }
+   }
+
+   .user {
+     img {
+       width: 20px;
+     }
+   }
+   p.tweet {
+       img {
+         width: 20px;
+       }
+   }
+
+   @media screen and (max-width: $break-large) {
+     width: 100%;
+     margin: 0;
+     }
+ }
+
+ .influencer-attending {
+     @include span-columns(6);
+     @media screen and (max-width: $break-large) {
+       width: 100%;
+       margin: 0;
+       }
+
+       img {
+          @include span-columns(4);
+         margin-right: 0;
+         padding: 13px 0 0 13px;
+         @media screen and (max-width: $break-large) {
+           width: 100%;
+           padding: 13px 0;
+           }
+
+
+       }
+
+
+ }
+
+ .influencer-attending-content {
+    @include span-columns(6);
+      a {
+        margin: 1em 0;
+        display: block;
+      }
+ }
+
+
+ .user-instas,.user-tweets, .event-tweets {
+   @include span-columns(6);
+   @media screen and (max-width: $break-large) {
+     width: 100%;
+     margin: 0;
+     }
+     p {
+       font-size: .7em;
+     }
+
+   img {
+     @include span-columns(6);
+     margin-right: 0;
+     padding: 13px 0 0 13px;
+     @media screen and (max-width: $break-large) {
+       width: 100%;
+       padding: 13px 0;
+       }
+
+
+   }
+ }
+
+
 
 
  .post {
@@ -470,7 +556,7 @@ margin: 0 ;
 
 @media screen and (max-width: $break-large) {
   width: 100%;
-  margin: 1em 0;
+  margin: .1em 0;
   }
 
     }
@@ -480,7 +566,7 @@ margin: 0 ;
 .event-content {
   @include span-columns(6);
     margin-bottom: $spacing-unit;
-    padding: 2em 0;
+    padding: 3em 0 1em;
     @media screen and (max-width: $break-large) {
       width: 100%;
       margin: 0;
