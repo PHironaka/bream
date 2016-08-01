@@ -40,7 +40,7 @@ twitter-asset:
 - "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
 net-registrants: '1,480'
-total-revenue: '1,093'
+attendees: '1,093'
 snapchat-views: '323,736'
 top-tweet-embed-1: |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">SoCal bound. Nike + Jordan celebrate hoop culture at the Air Hangar, 7.23-24. Book: <a href="https://t.co/qN9D3VTyhu">https://t.co/qN9D3VTyhu</a> <a href="https://twitter.com/hashtag/UNITE?src=hash">#UNITE</a> <a href="https://t.co/tFqsjHv0Oi">pic.twitter.com/tFqsjHv0Oi</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/756217188609060864">July 21, 2016</a></blockquote>
@@ -89,6 +89,8 @@ influencer-asset:
 - https://www.instagram.com/p/BIOftJUASJI/
 - https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
 - https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
+- https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+- https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
 layout: post
 ---
 
