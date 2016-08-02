@@ -90,16 +90,7 @@ influencer-asset:
   url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
 - image: "/uploads/IMG_0062%202.JPG"
   url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
-- https://twitter.com/briantong/status/757751305834160128
-- https://twitter.com/NBowman53/status/757615181258186752
-- https://www.instagram.com/p/BIT_CH5DH6_/
-- https://twitter.com/DennisTodisco/status/757758328181096448
-- https://twitter.com/juliephayer/status/757766851011026944
-- https://twitter.com/redgaskell/status/757771486425780224
-- https://twitter.com/danielbru/status/757391019516137472
-- https://www.instagram.com/p/BINmmxFAYet/?taken-by=gofitjo
-- https://twitter.com/appleidinesh/status/756889677043412993
-- https://www.instagram.com/p/BIMGSkShJWXHVH2ycdMXr0bqaZ5VHQv6mEeJCo0/?taken-by=missgallo
+  Key: 
 tag: SNKRS
 layout: post
 ---
