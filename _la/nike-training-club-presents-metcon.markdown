@@ -1,6 +1,6 @@
 ---
 title: Nike Training Club Presents Metcon
-date: 2016-07-25 23:27:00 Z
+date: 2016-07-15 23:27:00 Z
 tags:
 - Basketball
 background-post-image: "/uploads/2016-07-25.jpg"

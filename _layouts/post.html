@@ -53,7 +53,7 @@ layout: default
 {% for influencers in site.influencers %}
 {% if influencers.events.name contains page.title %}
 
-    <img src="{{ influencers.image }}">
+    <a href="/influencers"><img src="{{ influencers.image }}"></a>
 
 
 {% endif %}

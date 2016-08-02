@@ -7,7 +7,7 @@ background-post-image: "/uploads/IMG_0058.JPG"
 city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: 9.3% (vs. average 3%)
 impressions: '356,800'
-new-followers: 190
+new-followers: 279
 photographer-assets:
 - "/uploads/IMG_0077.JPG"
 - "/uploads/IMG_0073.JPG"
@@ -54,8 +54,8 @@ consumer-twitter-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 city-page-views: 20,513 (#1 City Page on desktop, 17.5% of all page views for city
   pages in the US vs. weekly 3,000 city page views)
-total-revenue: TBD – coming later this afternoon
-net-registrants: TBD – coming later this afternoon
+attendees: '1,470'
+net-registrants: '4,214'
 top-tweet-1: 15,753 Impressions, 4,422 Engagements, 28.1% Engagement Rate ( vs. average
   3%)
 top-tweet-2: 17,292 Impressions, 4,172 Engagements, 24.1% Engagement Rate ( vs. average
@@ -80,7 +80,6 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
   22, 2016</a></blockquote>\n<script async src=\"//platform.twitter.com/widgets.js\"
   charset=\"utf-8\"></script> "
 local-team-headline: Warriors Social Posts
-tag: SNKRS
 influencers: Red Gaskell
 influencer-asset:
 - https://twitter.com/KDTrey5/status/757635454959292416
@@ -98,6 +97,7 @@ influencer-asset:
 - https://www.instagram.com/p/BINmmxFAYet/?taken-by=gofitjo
 - https://twitter.com/appleidinesh/status/756889677043412993
 - https://www.instagram.com/p/BIMGSkShJWXHVH2ycdMXr0bqaZ5VHQv6mEeJCo0/?taken-by=missgallo
+tag: SNKRS
 layout: post
 ---
 
