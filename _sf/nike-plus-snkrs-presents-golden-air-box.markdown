@@ -82,7 +82,8 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
 local-team-headline: Warriors Social Posts
 influencers: Red Gaskell
 influencer-asset:
-- "/uploads/IMG_0062%202.JPG"
+- image: "/uploads/IMG_0062%202.JPG"
+  url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
 - "/uploads/IMG_0062%202.JPG"
 - "/uploads/IMG_0062%202.JPG"
 - "/uploads/IMG_0062%202.JPG"
