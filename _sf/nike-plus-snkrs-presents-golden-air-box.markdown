@@ -97,6 +97,7 @@ influencer-asset:
 - https://www.instagram.com/p/BINmmxFAYet/?taken-by=gofitjo
 - https://twitter.com/appleidinesh/status/756889677043412993
 - https://www.instagram.com/p/BIMGSkShJWXHVH2ycdMXr0bqaZ5VHQv6mEeJCo0/?taken-by=missgallo
+tag: SNKRS
 layout: post
 ---
 
