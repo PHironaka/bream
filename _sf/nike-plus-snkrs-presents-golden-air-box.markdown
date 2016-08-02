@@ -84,9 +84,10 @@ influencers: Red Gaskell
 influencer-asset:
 - image: "/uploads/IMG_0062%202.JPG"
   url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
-- "/uploads/IMG_0062%202.JPG"
-- "/uploads/IMG_0062%202.JPG"
-- "/uploads/IMG_0062%202.JPG"
+- image: "/uploads/IMG_0062%202.JPG"
+  url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
+- image: "/uploads/IMG_0062%202.JPG"
+  url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
 - "/uploads/IMG_0062%202.JPG"
 - https://twitter.com/briantong/status/757751305834160128
 - https://twitter.com/NBowman53/status/757615181258186752
