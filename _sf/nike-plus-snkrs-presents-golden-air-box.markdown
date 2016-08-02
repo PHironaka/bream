@@ -82,11 +82,11 @@ top-tweet-embed-3: "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang
 local-team-headline: Warriors Social Posts
 influencers: Red Gaskell
 influencer-asset:
-- "/uploads/13827377_626114860887095_268471526_n.jpg"
-- "/uploads/13696441_296864957332306_1068580368_n.jpg"
-- "/uploads/13696606_1814490432115501_574365299_n.jpg"
-- "/uploads/13744973_1749421325298284_493856457_n.jpg"
-- "/uploads/13732144_310665932656154_1726480677_n.jpg"
+- "/uploads/IMG_0062%202.JPG"
+- "/uploads/IMG_0062%202.JPG"
+- "/uploads/IMG_0062%202.JPG"
+- "/uploads/IMG_0062%202.JPG"
+- "/uploads/IMG_0062%202.JPG"
 - https://twitter.com/briantong/status/757751305834160128
 - https://twitter.com/NBowman53/status/757615181258186752
 - https://www.instagram.com/p/BIT_CH5DH6_/
