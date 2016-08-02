@@ -324,8 +324,9 @@ margin-bottom: 1em;
   .influencer-individual {
       @include span-columns(9);
       margin: 0;
-      padding: 12px;
+      padding:2em 0px;
       text-align: center;
+        border-bottom: 1px solid #eee;
 
       @media screen and (max-width: $break-small) {
         width: 100%;
@@ -344,6 +345,7 @@ margin-bottom: 1em;
             p {
               font-size: .9em;
               margin: 10px 0;
+
             }
 
         }
