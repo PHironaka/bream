@@ -11,9 +11,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  air-jordan:
-    title: air-jordan
-    output: true
   la:
     title: la
     output: true
