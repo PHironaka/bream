@@ -85,12 +85,12 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 location: LA
 influencer-asset:
-- https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
-- https://www.instagram.com/p/BIOftJUASJI/
-- https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
-- https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
-- https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
-- https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
+- url: https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
+- url: https://www.instagram.com/p/BIOftJUASJI/
+- url: https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
+- url: https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
+- url: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+- url: https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
 tag: Basketball
 layout: post
 ---
