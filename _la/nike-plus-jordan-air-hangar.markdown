@@ -86,11 +86,13 @@ local-team-asset:
 location: LA
 influencer-asset:
 - url: https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
+  image: "/uploads/IMG_0554.PNG"
 - url: https://www.instagram.com/p/BIOftJUASJI/
+  image: "/uploads/IMG_0555.PNG"
 - url: https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
-- url: https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
+  image: "/uploads/IMG_0556.PNG"
 - url: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
-- url: https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
+  image: "/uploads/IMG_0557.PNG"
 tag: Basketball
 layout: post
 ---
