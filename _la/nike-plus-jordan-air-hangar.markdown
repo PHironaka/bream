@@ -32,15 +32,6 @@ photographer-assets:
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
-instagram-asset:
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-twitter-asset:
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
 net-registrants: '1,480'
 attendees: '1,093'
