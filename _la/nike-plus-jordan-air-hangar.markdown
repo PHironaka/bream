@@ -14,18 +14,20 @@ city-page-views: '2,400'
 impressions: '401,428'
 photographer-assets:
 - "/uploads/IMG_0006.JPG"
-- "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0029.JPG"
-- "/uploads/IMG_0028.JPG"
-- "/uploads/IMG_0027.JPG"
-- "/uploads/IMG_0026.JPG"
-- "/uploads/IMG_0025.JPG"
-- "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0022.JPG"
-- "/uploads/IMG_0021.JPG"
-- "/uploads/IMG_0020.JPG"
-- "/uploads/IMG_0019.JPG"
-- "/uploads/IMG_0076.JPG"
+- "/uploads/160722_Nike_USAB_2A_016.jpg"
+- "/uploads/160722_Nike_USAB_2A_055.jpg"
+- "/uploads/160722_Nike_USAB_2A_069.jpg"
+- "/uploads/160722_Nike_USAB_2A_235.jpg"
+- "/uploads/160722_Nike_USAB_2A_086.jpg"
+- "/uploads/_DX20835.jpg"
+- "/uploads/_DX29833.jpg"
+- "/uploads/DrewLeague_edit-19.jpg"
+- "/uploads/_DX14537.jpg"
+- "/uploads/160722_Nike_USAB_2A_154.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_001.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_030.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_186.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_196.jpg"
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
@@ -90,6 +92,7 @@ influencer-asset:
 - https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
 - https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 - https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
+tag: Basketball
 layout: post
 ---
 
