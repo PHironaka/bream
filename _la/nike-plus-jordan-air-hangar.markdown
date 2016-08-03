@@ -90,7 +90,6 @@ influencer-asset:
 - https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
 - https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
 - https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
-tag: Basketball
 layout: post
 ---
 
