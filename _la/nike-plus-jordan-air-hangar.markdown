@@ -25,6 +25,8 @@ photographer-assets:
 - "/uploads/160722_Nike_USAB_Shot01_030.jpg"
 - "/uploads/160722_Nike_USAB_Shot01_186.jpg"
 - "/uploads/160722_Nike_USAB_Shot01_196.jpg"
+- "/uploads/IMG_0005%203.JPG"
+- "/uploads/IMG_0004%202.JPG"
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
