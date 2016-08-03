@@ -91,6 +91,7 @@ influencer-asset:
 - image: "/uploads/IMG_0062%202.JPG"
   url: " https://www.instagram.com/p/BILY-4UjHG_/?taken-by=andre "
   Key: 
+tag: SNKRS
 layout: post
 ---
 
