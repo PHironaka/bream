@@ -61,7 +61,7 @@ layout: default
 </div>
 <div class="influencer-attending-content">
 {% for influencer-asset in page.influencer-asset %}
-<a href="{{ influencer-asset }}" target="_blank"> {{ influencer-asset }}</a>
+<a href="{{ influencer-asset.url }}" target="_blank"> <img src="{{ influencer-asset.image }}"></a>
 {% endfor %}
 
 

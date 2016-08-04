@@ -14,30 +14,24 @@ city-page-views: '2,400'
 impressions: '401,428'
 photographer-assets:
 - "/uploads/IMG_0006.JPG"
-- "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0029.JPG"
-- "/uploads/IMG_0028.JPG"
-- "/uploads/IMG_0027.JPG"
-- "/uploads/IMG_0026.JPG"
-- "/uploads/IMG_0025.JPG"
-- "/uploads/IMG_0024.JPG"
-- "/uploads/IMG_0022.JPG"
-- "/uploads/IMG_0021.JPG"
-- "/uploads/IMG_0020.JPG"
-- "/uploads/IMG_0019.JPG"
-- "/uploads/IMG_0076.JPG"
+- "/uploads/160722_Nike_USAB_2A_016.jpg"
+- "/uploads/160722_Nike_USAB_2A_055.jpg"
+- "/uploads/160722_Nike_USAB_2A_069.jpg"
+- "/uploads/160722_Nike_USAB_2A_235.jpg"
+- "/uploads/160722_Nike_USAB_2A_086.jpg"
+- "/uploads/DrewLeague_edit-19.jpg"
+- "/uploads/160722_Nike_USAB_2A_154.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_001.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_030.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_186.jpg"
+- "/uploads/160722_Nike_USAB_Shot01_196.jpg"
+- "/uploads/IMG_0005%203.JPG"
+- "/uploads/IMG_0004%202.JPG"
+- "/uploads/72316_Nike_Hangar-15.jpg"
+- "/uploads/DSC01096-1.JPG"
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
-instagram-asset:
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-- "/uploads/IMG_0002.JPG"
-twitter-asset:
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
-- "/uploads/Nike-Womens-Marathon-SF-Start-.jpg"
 tweet-list: JORDAN
 net-registrants: '1,480'
 attendees: '1,093'
@@ -84,12 +78,14 @@ local-team-asset:
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 location: LA
 influencer-asset:
-- https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
-- https://www.instagram.com/p/BIOftJUASJI/
-- https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
-- https://www.instagram.com/p/BIOfZrpDiOx/?taken-by=kicksonfire
-- https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
-- https://www.instagram.com/p/BIOvVZOhS8n/?taken-by=kustoo
+- url: https://www.instagram.com/p/BIOJASxgWXu/?taken-by=nicekicks
+  image: "/uploads/IMG_0554.PNG"
+- url: https://www.instagram.com/p/BIOftJUASJI/
+  image: "/uploads/IMG_0555.PNG"
+- url: https://www.instagram.com/p/BIOqhDfjMB3/?taken-by=kicksologists
+  image: "/uploads/IMG_0556.PNG"
+- url: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
+  image: "/uploads/IMG_0557.PNG"
 tag: Basketball
 layout: post
 ---
