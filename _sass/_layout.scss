@@ -253,7 +253,7 @@ margin-bottom: 1em;
   h1 {
 
     @media screen and (max-width: $break-small) {
-      font-size: 1.2em;
+      font-size: 1.4em;s
       }
 
   }
@@ -478,7 +478,7 @@ margin: 0 ;
        h1 {
 
          @media screen and (max-width: $break-small) {
-           font-size: 1.2em;
+           font-size: 1.4em;
            }
 
        }
@@ -527,6 +527,15 @@ margin: 0 ;
 
  .user-instas,.user-tweets, .event-tweets {
    @include span-columns(6);
+
+   h1 {
+
+     @media screen and (max-width: $break-small) {
+       font-size: 1.4em;
+       }
+
+   }
+
    @media screen and (max-width: $break-large) {
      width: 100%;
      margin: 0;
