@@ -4,7 +4,9 @@ date: 2016-07-20 17:13:00 Z
 tags:
 - SNKRS
 background-post-image: "/uploads/IMG_0058.JPG"
-city-page-mobile-asset: "/uploads/Group-2.png"
+city-page-mobile-asset: |-
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Gold standard. Nike+ <a href="https://twitter.com/hashtag/SNKRS?src=hash">#SNKRS</a> presents GOLDEN AIR, arriving 7.23. Book your spot: <a href="https://t.co/LXAW7rLRv6">https://t.co/LXAW7rLRv6</a> <a href="https://t.co/nv36hi2wmW">pic.twitter.com/nv36hi2wmW</a></p>&mdash; Nike San Francisco (@NikeSF) <a href="https://twitter.com/NikeSF/status/755167378225364992">July 18, 2016</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 engagement-rate: 9.3% (vs. average 3%)
 impressions: '356,800'
 new-followers: 279
