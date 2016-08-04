@@ -12,7 +12,7 @@
     padding: 10px 0;
 
     @media screen and (max-width: $break-small) {
-        width: 61.82117%;
+        width: 58.82117%;
         margin-left: 0;
       }
 
@@ -56,7 +56,7 @@
     float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 34.70196%;
+  width: 38.70196%;
     }
 
     &,
@@ -244,8 +244,14 @@ margin-bottom: 1em;
 @include outer-container;
 margin-bottom: 1em;
   span {
-    font-family: $base-font-family;
+    font-family: "TradeGothicforNike365-Light", arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #666;
   }
+
+
+
 }
 
 
@@ -477,6 +483,11 @@ margin: 0 ;
 
  .influencer-attending-content {
     @include span-columns(6);
+
+    @media screen and (max-width: $break-large) {
+      width: 100%;
+      }
+
       a {
         margin: 1em 0;
         display: block;
@@ -513,6 +524,14 @@ margin: 0 ;
      @media screen and (max-width: $break-large) {
        width: 100%;
        padding: 13px 0;
+       }
+
+       h1 {
+
+         @media screen and (max-width: $break-large) {
+           font-size: 1.5em;
+           }
+
        }
 
 
