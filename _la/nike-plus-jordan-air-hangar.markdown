@@ -11,7 +11,8 @@ city-page-mobile-asset: "/uploads/Group-2.png"
 engagement-rate: " 8.7% (vs. 4% average)"
 new-followers: 83
 city-page-views: '2,400'
-impressions: '401,428'
+impressions:
+- 
 photographer-assets:
 - "/uploads/IMG_0006.JPG"
 - "/uploads/160722_Nike_USAB_2A_016.jpg"
@@ -32,7 +33,6 @@ photographer-assets:
 background_color: "#efff68"
 city-name: Los Angeles
 date-range: July 22-25
-tweet-list: JORDAN
 net-registrants: '1,480'
 attendees: '1,093'
 snapchat-views: '323,736'
