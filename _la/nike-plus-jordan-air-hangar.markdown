@@ -86,7 +86,6 @@ influencer-asset:
   image: "/uploads/IMG_0556.PNG"
 - url: https://www.instagram.com/p/BIOpjg3BDnc/?taken-by=kustoo
   image: "/uploads/IMG_0557.PNG"
-tag: Basketball
 layout: post
 ---
 
