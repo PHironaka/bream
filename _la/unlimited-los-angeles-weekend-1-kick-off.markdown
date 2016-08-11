@@ -85,7 +85,7 @@ consumer-twitter-asset:
   photo posted by \U0001F495Jayna\U0001F495 (@jayjay206) on <time style=\" font-family:Arial,sans-serif;
   font-size:14px; line-height:17px;\" datetime=\"2016-08-07T06:21:53+00:00\">Aug 6,
   2016 at 11:21pm PDT</time></p></div></blockquote> <script async defer src=\"//platform.instagram.com/en_US/embeds.js\"></script>"
-photography-assets:
+photographer-assets:
 - "/uploads/unspecified-19.jpeg"
 - "/uploads/unspecified-14.jpeg"
 - "/uploads/unspecified-16.jpeg"
