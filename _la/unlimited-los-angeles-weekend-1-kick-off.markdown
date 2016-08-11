@@ -22,6 +22,8 @@ influencer-asset:
 top-tweet-embed-1: |-
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Rally your squad. <a href="https://twitter.com/hashtag/NTC?src=hash">#NTC</a> meets at the Pasadena Rose Bowl, 8.6. Book: <a href="https://t.co/JaTi2liFxI">https://t.co/JaTi2liFxI</a> <a href="https://twitter.com/hashtag/justdoit?src=hash">#justdoit</a> <a href="https://t.co/D0QyizLjn1">pic.twitter.com/D0QyizLjn1</a></p>&mdash; Nike Los Angeles (@NikeLA) <a href="https://twitter.com/NikeLA/status/761339420154949633">August 4, 2016</a></blockquote>
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+top-tweet-1: 55,700 Impressions 8.7% Engagement Rate (a little over double our daily
+  average)
 layout: post
 ---
 
