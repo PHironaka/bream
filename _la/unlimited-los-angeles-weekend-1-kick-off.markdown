@@ -9,7 +9,7 @@ attendees: 600+
 net-registrants: '1,001'
 background_color: "#efff68"
 city-name: Los Angeles
-Field name: 
+impressions: '55,700'
 layout: post
 ---
 
