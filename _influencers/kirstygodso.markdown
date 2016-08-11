@@ -7,4 +7,4 @@ events:
   name: 'Unlimited Los Angeles: Weekend 1 Kick Off'
 ---
 
-Witness the fitness || Nike Master Trainer 💪🏼 Snapchat: kirstygodso news.nike.com/news/nike-women-presents-master-trainer-kirsty-godso
+Witness the fitness. Nike Master Trainer 💪🏼 Snapchat: kirstygodso news.nike.com/news/nike-women-presents-master-trainer-kirsty-godso
