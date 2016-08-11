@@ -7,7 +7,7 @@ engagement-rate: 8.7% Engagement Rate (a little over double our daily average)
 new-followers: 201
 attendees: 600+
 net-registrants: '1,001'
-background-color: efff68
+background-color: "#efff68"
 city-name: Los Angeles
 Field name: 
 layout: post
