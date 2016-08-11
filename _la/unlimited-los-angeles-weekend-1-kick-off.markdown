@@ -10,6 +10,15 @@ net-registrants: '1,001'
 background_color: "#efff68"
 city-name: Los Angeles
 impressions: '55,700'
+influencer-asset:
+- image: "/uploads/IMG_0554.PNG"
+  url: https://www.instagram.com/p/BIz_dVrhGfU/?taken-by=kirstygodso
+- url: https://www.instagram.com/p/BIy-hgzD2Fk/?taken-by=thejoyofhans
+  image: "/uploads/IMG_0554.PNG"
+- url: https://www.instagram.com/p/BIzAuWSjLGu/?taken-by=nicharris5
+  image: "/uploads/IMG_0554.PNG"
+- url: " https://www.instagram.com/p/BIynXnLAHT0/?taken-by=ashleyjoi"
+  image: "/uploads/IMG_0554.PNG"
 layout: post
 ---
 
