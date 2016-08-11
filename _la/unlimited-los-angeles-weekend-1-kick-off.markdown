@@ -8,7 +8,7 @@ new-followers: 201
 attendees: 600+
 net-registrants: '1,001'
 background_color: "#efff68"
-city-name: Los Angeles
+city-name: Los-Angeles
 impressions: '55,700'
 influencer-asset:
 - image: "/uploads/IMG_0554.PNG"
@@ -96,6 +96,7 @@ photographer-assets:
 - "/uploads/unspecified-3.jpeg"
 - "/uploads/unspecified-6.jpeg"
 - "/uploads/unspecified-7.jpeg"
+tag: NTC
 layout: post
 ---
 
