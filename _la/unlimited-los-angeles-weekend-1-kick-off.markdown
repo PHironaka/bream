@@ -1,6 +1,8 @@
 ---
 title: 'Unlimited Los Angeles: Weekend 1 Kick Off'
 date: 2016-08-10 23:06:00 Z
+tags:
+- NTC
 background-post-image: "/uploads/unspecified-4.jpeg"
 city-page-mobile-asset: "/uploads/unlimited-la.png"
 engagement-rate: 8.7% Engagement Rate (a little over double our daily average)
@@ -96,7 +98,6 @@ photographer-assets:
 - "/uploads/unspecified-3.jpeg"
 - "/uploads/unspecified-6.jpeg"
 - "/uploads/unspecified-7.jpeg"
-tag: NTC
 layout: post
 ---
 
