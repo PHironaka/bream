@@ -2,6 +2,9 @@
 title: Nike West - Event Recaps
 timezone: UTC
 collections:
+  analytics:
+    title: Analytics
+    output: true
   influencers:
     title: Influencers
     output: true
