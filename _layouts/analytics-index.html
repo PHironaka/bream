@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+<div class="wrapper">
+  {{ content }}
+
+<div class=" city">
+        <h1> Influencer Directory</h1>
+
+        <div class="influencer-list">
+
+                    {% for analytics in site.analytics %}
+
+        <section class="influencer-individual">
+
+          <div class="influencer-bio">
+
+          <a href="{{analytics.url}}" >{{ analytics.title }}</a>
+          
+          </div>
+
+              </section>
+
+
+                {% endfor %}
+          </div>
+  </div>
+  </div>
