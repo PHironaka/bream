@@ -3,6 +3,7 @@
  */
 .site-header {
   @include outer-container;
+  background-color: black;
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -22,7 +23,7 @@
               margin: 0;
               li {
                 display: inline;
-                margin: 2em;
+                margin: 1em;
 
                 @media screen and (max-width: $break-small) {
                   margin: 0.5em;
@@ -31,6 +32,7 @@
                 a {
                   font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
                   text-transform: uppercase;
+                  color: white;
                 }
               }
             }
@@ -49,7 +51,7 @@
     font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
     text-transform: uppercase;
     display: inline;
-    color: black;
+    color: white;
   }
 
   @media screen and (max-width: $break-small) {
@@ -139,8 +141,13 @@
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit 0;
-        margin: 3em 0 0;
+    padding: 10px 0;
+        margin: 0;
+
+          p {
+            font-size: 12px;
+            margin: 0;
+          }
 
         img {
           @include span-columns(1);

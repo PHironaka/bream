@@ -21,6 +21,9 @@ layout: default
           <p> {{influencers.content}}</p>
           <p> Instagram Followers: {{influencers.instagram}}</p>
           <p> City: {{influencers.city}}</p>
+          <p> Relationship Owner: {{influencers.relationship_owner }}</p>
+          <p> {{ influencers.title }}'s size: {{influencers.sizing }}</p>
+          <p> Product Seeded: {{seeded_product }}</p>
           {% if influencers.city  =='LA'   %}
            <p> Events Attended:</p>  <a href="/la/{{ influencers.events.name | slugify: 'pretty' | replace: '+', '-plus' }}">{{influencers.events.name}} </a>
            {% endif %}
