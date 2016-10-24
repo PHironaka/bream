@@ -10,13 +10,13 @@ layout: default
 
         <div class="influencer-list">
 
-                    {% for Analytics in site.analytics %}
+                    {% for stats in site.stats %}
 
         <section class="influencer-individual">
 
           <div class="influencer-bio">
 
-          <a href="{{Analytics.url}}" >{{ Analytics.title }}</a>
+          <a href="{{stats.url}}" >{{ stats.title }}</a>
 
           </div>
 
