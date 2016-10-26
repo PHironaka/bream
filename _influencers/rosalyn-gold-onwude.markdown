@@ -5,6 +5,7 @@ image: "/uploads/SqTJYmoA.jpg"
 city: SF
 events:
   name: Nike+ SNKRS Presents Golden Air BOX
+layout: page
 ---
 
 Rio Olympics: NBC. GS Warriors: CSN. NYLiberty: MSG. NBA on TNT. NCAA: PAC12,CBS. Emmy Winner. Stanford:BA, MA'10. 3 Final 4s. Pac12 DPOY '10.Nigerian Natl team
