@@ -6,7 +6,7 @@ image: "/uploads/red-gakell.jpg"
 instagram: 7,251 followers
 events:
   name: Nike+ SNKRS Presents Golden Air BOX
-layout: city
+layout: page
 ---
 
 Bio: Community Manager @ Everlane. 
