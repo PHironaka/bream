@@ -5,6 +5,7 @@ image: "/uploads/TIu6W7j8.jpg"
 city: SF
 events:
   name: Nike+ SNKRS Presents Golden Air BOX
+layout: page
 ---
 
 Be passionate, but don't be emo.
