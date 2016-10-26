@@ -5,6 +5,7 @@ image: "/uploads/hp2a9yiK.jpg"
 city: SF
 events:
   name: Nike+ SNKRS Presents Golden Air BOX
+layout: page
 ---
 
 LB for the San Francisco 49ers, #53 For Business Inquires Contact : @AJ_ThompsonJr
