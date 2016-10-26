@@ -5,6 +5,7 @@ image: "/uploads/rvqeewxJ_400x400.jpg"
 city: SF
 events:
   name: Nike+ SNKRS Presents Golden Air BOX
+layout: page
 ---
 
 British & Brown Senior Interactive Designer at  San Francisco, California www.dineshdave.com
