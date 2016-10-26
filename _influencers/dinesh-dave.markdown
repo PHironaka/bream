@@ -8,4 +8,4 @@ events:
 layout: page
 ---
 
-British & Brown Senior Interactive Designer at  San Francisco, California www.dineshdave.com
+British & Brown Senior Interactive Designer at Apple. San Francisco, California www.dineshdave.com
