@@ -5,6 +5,7 @@ city: LA
 image: "/uploads/nice-kicks.png"
 events:
   name: Nike+ Jordan Air Hangar
+layout: page
 ---
 
 The premier spot for sneaker news, info, & history.
