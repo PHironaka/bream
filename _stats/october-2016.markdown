@@ -8,3 +8,4 @@ new-followers: 23423
 layout: analytics
 ---
 
+On July 23-24, Nike Basketball + Jordan came together to celebrate the love of the game. The Air Hangar in LA hosted thousands from the local basketball community and showcased the culture of Southern California hoops. With a surprise visit from some of USAB’s finest, an Aston Martin giveaway at the epic Air Show, to ChanceThe Rapper debuting his song for the team, it was a night to be remembered.
