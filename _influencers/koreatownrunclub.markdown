@@ -5,6 +5,7 @@ city: LA
 image: "/uploads/13531908_1546915842284124_1408335715_a.jpg"
 events:
   name: 
+layout: page
 ---
 
 K - R C SATURDAYS // 10:30AM // THE LINE HOTEL LOBBY @theworstkids @koreatown ✉️: duy@camprimpau.com facebook.com/koreatownrunclub
