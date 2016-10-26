@@ -5,6 +5,7 @@ city: LA
 image: "/uploads/AqxYuPLN.png"
 events:
   name: Nike+ Jordan Air Hangar
+layout: page
 ---
 
 Sneaker News & Updates. Performance Reviews. Use #kicksologists to show off your kicks!
