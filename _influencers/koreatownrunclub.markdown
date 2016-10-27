@@ -2,7 +2,7 @@
 title: koreatownrunclub
 date: 2016-08-04 23:43:00 Z
 city: LA
-image: "/uploads/13531908_1546915842284124_1408335715_a.jpg"
+image: "/uploads/13516177_1819136264988516_4621423441388195409_n.jpg"
 events:
   name: 
 layout: page
