@@ -4,4 +4,4 @@ date: 2016-10-23 20:23:00 Z
 layout: influencer
 ---
 
-A growing roster of influencers across each of the 
+A database comprised of a growing roster of movers and shakers across each of the 4 Nike West geos.
