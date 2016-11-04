@@ -5,7 +5,7 @@ city: LA
 image: "/uploads/13734410_1083327251704734_1961026868_n.jpg"
 events:
   name: 'Unlimited Los Angeles: Weekend 1 Kick Off'
-layout: influencer
+layout: page
 ---
 
 📬Contact: AshleyJoi.Fitness.Camp@gmail.com URI⚓️Alumni Health&Fitness.HardWorker.BeachBum. NaturalLeader.Libra.GodsChild.👻:MsAshleyJoi
