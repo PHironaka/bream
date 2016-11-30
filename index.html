@@ -2,43 +2,31 @@
 layout: default
 ---
 
-  <div class="event-list">
-    <div class="wrapper">
+<div class="page-content">
+{% for la in site.la limit:2 %}
+<div class="page-content--hero-image" style="background-image:url({{la.background-post-image}})">
+<div class="wrapper">
+<div class="page-content--color" style="background:{{la.background_color}}">
 </div>
-    {% for la in site.la limit:2 %}
-
-<a class="event-link" href="{{ la.url }}">
-    <div class="event-copy" style="background-image: url({{ la.background-post-image }});">
-  <div class="wrapper">
-    <div class="post-color" style=" background:{{la.background_color}};">
-
-    </div>
-    <h2> {{ la.city-name }}</h2>
-
-        <h1>
-          {{ la.title }}
-        </h1>
-<h2><a class="archive-date" >{{ la.date | date: "%m.%d.%Y" }}</a></h2>
+<h2> {{ la.city-name }}</h2>
+<a class="page-content--link" href="{{ la.url }}"> <h1>{{ la.title }}</h1></a>
+<h2><a class="page-content--date">{{ la.date | date: "%m.%d.%Y" }}</a></h2>
 </div>
-      </div></a>
+</div>
 {% endfor %}
+
 
 {% for sf in site.sf limit:2 %}
-
-<a class="event-link" href="{{ sf.url }}">
-<div class="event-copy" style="background-image: url({{ sf.background-post-image }});">
+<div class="page-content--hero-image" style="background-image:url({{sf.background-post-image}})">
 <div class="wrapper">
-<div class="post-color" style=" background:{{sf.background_color}};">
-
+<div class="page-content--color"style="background:{{sf.background_color}}">
 </div>
 <h2> {{ sf.city-name }}</h2>
-
-    <h1>
-      {{ sf.title }}
-    </h1>
-    <h2><a class="archive-date" >{{ sf.date | date: "%m.%d.%Y" }}</a></h2>
-
+<a class="page-content--link" href="{{ sf.url }}"> <h1>
+{{ sf.title }}
+</h1></a>
+<h2><a class="page-content--date">{{ sf.date | date: "%m.%d.%Y" }}</a></h2>
 </div>
-  </div></a>
+</div>
 {% endfor %}
-  </div>
+</div>

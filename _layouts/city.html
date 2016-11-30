@@ -1,79 +1,60 @@
 ---
 layout: default
 ---
-
 <div class="wrapper">
-  {{ content }}
+{{ content }}
+<div class="page-content--entry">
+{% for la in site.la limit:1 %}
+<div class="page-content--color" style="background:{{la.background_color}}"> </div>
+{% endfor %}
 
 
-<div class="city">
-  {% for la in site.la limit:1 %}
-  <div class="post-color" style=" background:{{la.background_color}};">  </div>
-  {% endfor %}
-
-    <h1> Los Angeles </h1>
-
-
-
-  <section class="influencer-events">
-  <h3> Event Name</h3>
-  {% for la in site.la %}
-      <section>
-          <a href="{{ la.url }}">{{ la.title }}</a>
-      </section>
-        {% endfor %}
-        </section>
-
-        <div class="influencer-names">
-                    <h3> Los Angeles Influencers</h3>
-
-                    {% for influencers in site.influencers %}
-                          {% if influencers.city  =='LA'   %}
-
-        <section class="influencers">
-          <p>{{ influencers.title }}</p>
-
-                        <img src="{{ influencers.image }}">
-              </section>
-
-
-                          {% endif %}
-                {% endfor %}
-          </div>
-  </div>
-
-<div class="city">
-
-  {% for sf in site.sf limit:1 %}
-  <div class="post-color" style=" background:{{sf.background_color}};">  </div>
-  {% endfor %}
-
-      <h1> San Francisco </h1>
-      <section class="influencer-events">
-      <h3> Event Name</h3>
-      {% for sf in site.sf %}
-          <section>
-              <a href="{{ sf.url }}">{{ sf.title }}</a>
-          </section>
-            {% endfor %}
-            </section>
-
-<div class="influencer-names">
-            <h3> San Francisco Influencers</h3>
-
-            {% for influencers in site.influencers %}
-              {% if influencers.city  =='SF'   %}
-
-<section class="influencers">
-  <p>{{ influencers.title }}</p>
-
-                <img src="{{ influencers.image }}">
-      </section>
-
-            {% endif %}
-
-        {% endfor %}
-  </div>
+<h1> Los Angeles </h1>
+<section class="page-content--entry__events">
+<h3> Event Name</h3>
+{% for la in site.la %}
+<section>
+<a href="{{ la.url }}">{{ la.title }}</a>
+</section>
+{% endfor %}
+</section>
+<section class="page-content--entry-influencers">
+<h3> Los Angeles Influencers</h3>
+{% for influencers in site.influencers %}
+{% if influencers.city =='LA' %}
+<section class="page-content--entry-influencers__image">
+<p>{{ influencers.title }}</p>
+<a href="{{influencers.url}}"> <img src="{{ influencers.image }}"></a>
+</section>
+{% endif %}
+{% endfor %}
+</section>
 </div>
 
-  </div>
+
+<div class="page-content--entry">
+{% for sf in site.sf limit:1 %}
+<div class="page-content--color" style="background:{{sf.background_color}}"> </div>
+{% endfor %}
+<h1> SF </h1>
+<section class="page-content--entry__events">
+<h3> Event Name</h3>
+{% for sf in site.sf limit:1 %}
+<section>
+<a href="{{ sf.url }}">{{ sf.title }}</a>
+</section>
+{% endfor %}
+</section>
+<section class="page-content--entry-influencers">
+<h3> San Francisco Influencers</h3>
+{% for influencers in site.influencers %}
+{% if influencers.city =='SF' %}
+<section class="page-content--entry-influencers__image">
+<p>{{ influencers.title }}</p>
+<a href="{{influencers.url}}"> <img src="{{ influencers.image }}"></a>
+</section>
+{% endif %}
+{% endfor %}
+</section>
+</div>
+</div>

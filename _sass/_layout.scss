@@ -4,29 +4,85 @@
 .site-header {
   @include outer-container;
   background-color: black;
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  position: relative;
+
+    &--title {
+      margin: 7px 0;
+      @include span-columns(3);
+        img {
+            @include span-columns(4);
+        }
+
+      span {
+        font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
+        text-transform: uppercase;
+        display: inline;
+        color: white;
+      }
+
+      @media screen and (max-width: $break-small) {
+        float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.70196%;
+        }
+
+        &,
+        &:visited {
+            color: $grey-color-dark;
+        }
+    }
+
+    .site-nav {
+        float: right;
+        line-height: 56px;
+
+        .menu-icon {
+            display: none;
+        }
+
+        .page-link {
+            color: $text-color;
+            line-height: $base-line-height;
+
+            // Gaps between nav items, but not on the last one
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+
+        @include media-query($on-palm) {
+            position: absolute;
+            top: 9px;
+            right: $spacing-unit / 2;
+            background-color: $background-color;
+            border: 1px solid $grey-color-light;
+            border-radius: 5px;
+            text-align: right;
+        }
+    }
 
        nav {
-         @include span-columns(5);
-@include shift(4);
+         @include span-columns(7);
+@include shift(2);
     padding: 10px 0;
 
     @media screen and (max-width: $break-small) {
-        width: 52.82117%;
+        width: 100%;
         margin-left: 0;
       }
-
-
             ul {
               text-align: right;
               margin: 0;
+              @media screen and (max-width: $break-small) {
+                text-align: left;
+                }
               li {
                 display: inline;
                 margin: 1em;
 
                 @media screen and (max-width: $break-small) {
-                  margin: 0.5em;
+                  margin: 0 0.5em 0 0;
                   }
 
                 a {
@@ -38,104 +94,6 @@
             }
        }
 }
-
-.site-title {
-  margin: 7px 0;
-  @include span-columns(3);
-
-    img {
-        @include span-columns(4);
-    }
-
-  span {
-    font-family: 'TradeGothicforNike365-BdCn', arial, sans-serif;
-    text-transform: uppercase;
-    display: inline;
-    color: white;
-  }
-
-  @media screen and (max-width: $break-small) {
-    float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 40.70196%;
-    }
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
-
-
 
 /**
  * Site footer
@@ -154,108 +112,328 @@
         }
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
-
 /**
  * Page content
  */
-
-.city {
-  @include outer-container;
-  padding: 2em 0;
-
-}
-
 .page-content {
     padding: 0;
 
-    .post-color {
-      width: 25px;
-height: 25px;
+    &--hero-image {
+      vertical-align: middle;
+      min-height: 406px;
+      height: 44vh;
+      width: 100%;
+      max-height: 742px;
+      background-position: center center;
+      background-size: cover;
+      vertical-align: middle;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      position: relative;
+      top: 0;
+      padding: 3em 0;
+
+      a {
+        color: white;
+      }
+
+        h1 {
+          font-size: 4em;
+          line-height: 1;
+          color: white;
+
+          @media screen and (max-width: $break-large) {
+            font-size: 3em;
+            }
+
+            @media screen and (max-width: $break-small) {
+              font-size: 2em;
+              }
+
+        }
+
+        h2 {
+          font-size: 1.6em;
+          color: white;
+        }
+    }
+
+    &--date {
+      @include span-columns(2);
+        color: $text-color;
+    }
+    &--entry {
+      @include outer-container;
+      padding: 1em 0;
+    }
+
+    &--list  {
+      @include outer-container;
+      padding: 3em 0;
+      border-top: 1px solid #eee;
+
+        &__bio {
+          @include span-columns(6);
+          @media screen and (max-width: $break-small) {
+            width: 100%;
+            }
+
+        }}
+
+
+      &--individual {
+      display: inline-table;
+      margin-right: 2.35765%;
+      width: 29.35098%;
+      padding: 2em 0px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+
+
+      h1 {
+        font-size: 1.5em;
+      }
+              p {
+                font-size: .9em;
+                margin: 10px 0;
+
+              }
+
+            @media screen and (max-width: $break-small) {
+              width: 100%;
+              }
+
+
+
+
+        }
+
+    &--color {
+      width: 15px;
+height: 15px;
 float: left;
-margin: 6px 14px 0 0;
+margin: 10px 14px 0 0;
+    }
+
+
+
+    &--analytics {
+      @include span-columns(6);
+        margin-bottom: $spacing-unit;
+        padding: 3em 0 1em;
+        @media screen and (max-width: $break-large) {
+          width: 100%;
+          margin: 0;
+          }
+
+          &__engagement {
+          @include outer-container;
+          margin-bottom: 1em;
+            span {
+              font-family: "TradeGothicforNike365-Light", arial, sans-serif;
+              font-weight: normal;
+              font-size: 16px;
+              color: #666;
+            }
+
+        h2 {
+          font-size:1.5em;
+          font-weight: 600;
+        }
+
+        h3 {
+          font-size:1.2em;
+
+        }
+}
+    }
+
+    &--entry-influencers {
+      @include span-columns(7);
+      @include shift(1);
+      padding: 3em 0;
+      border-top: 1px solid #eee;
+
+      @media screen and (max-width: $break-small) {
+        width: 100%;
+        margin: 0;
+
+      }
+
+    &__image {
+      display: inline-block;
+        margin-right: 2.35765%;
+        width: 31.76157%;
+        margin: 0;
+        padding: 12px 12px 12px 0;
+
+        @media screen and (max-width: $break-small) {
+          width: 100%;
+          margin: 0;
+
+        }
+          } }
+
+
+          img {
+            padding: 10px 0;
+
+          }
+
+
+    &--entry__events {
+      @include span-columns(4);
+      padding: 3em 0;
+      border-top: 1px solid #eee;
+
+      @media screen and (max-width: $break-small) {
+        width: 100%;
+        }
+
+        section {
+          padding: 1em 0 ;
+          border-bottom: 1px solid #eee;
+
+        }
+    }
+
+    &--entry__mobile{
+        @include span-columns(5);
+        @include shift(1);
+        padding: 2em 0;
+
+        @media screen and (max-width: $break-large) {
+          width: 100%;
+          margin: 0;
+          }
+    }
+&--entry__attendence {
+  @include outer-container();
+
+  &__event-photos {
+    @include outer-container;
+    border-top: 1px solid #eee;
+    padding-top: 2em;
+
+      img {
+        display: inline;
+    width: 23.23176%;
+    padding: 12px 0 0 12px;
+
+  @media screen and (max-width: $break-large) {
+    width: 100%;
+    margin: .1em 0;
+    }
+
+      }
+  }
+
+
+  &__user-tweets {
+    @include span-columns(6);
+
+    ul {
+      li {
+        margin: 1em 0;
+        padding: 1em 0;
+        border-bottom: 1px solid #eee;
+          &:last-child {
+            border-bottom: none;
+          }
+      }
+    }
+
+    .user {
+      img {
+        width: 20px;
+      }
+    }
+    p.tweet {
+        img {
+          width: 20px;
+        }
+    }
+
+    @media screen and (max-width: $break-large) {
+      width: 100%;
+      margin: 0;
+      }
+  }
+
+
+
+
+
+
+
+
+
+  &__content {
+     @include span-columns(6);
+
+     @media screen and (max-width: $break-large) {
+       width: 100%;
+       }
+
+       a {
+         margin: 1em 0;
+         display: block;
+       }
+
+       img {
+          @include span-columns(6);
+         margin-right: 0;
+         padding: 13px 0 0 13px;
+         @media screen and (max-width: $break-large) {
+           width: 100%;
+           padding: 13px 0;
+           }
+
+
+       }
+  }
+
+    &__avatar {
+          @include span-columns(6);
+          @media screen and (max-width: $break-large) {
+            width: 100%;
+            margin: 0;
+            }
+
+            h1 {
+
+              @media screen and (max-width: $break-small) {
+                font-size: 1.4em;
+                }
+
+            }
+
+
+            img {
+               @include span-columns(4);
+              margin-right: 0;
+              padding: 13px 0 0 13px;
+              @media screen and (max-width: $break-large) {
+                width: 100%;
+                padding: 13px 0;
+                }
+
+
+            }
+
+
+
     }
 }
+
 
 .page-heading {
     font-size: 1.3em;
     font-weight: $header-font-weight;
 }
 
-.event-list {
-@include outer-container;
-margin-bottom: 1em;
-}
 
-.event-engagement {
-@include outer-container;
-margin-bottom: 1em;
-  span {
-    font-family: "TradeGothicforNike365-Light", arial, sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    color: #666;
-  }
 
   h1 {
 
@@ -268,7 +446,7 @@ margin-bottom: 1em;
 
 
 
-}
+
 
 
 .event-influencers {
@@ -281,140 +459,22 @@ margin-bottom: 1em;
 .event-img {
     @include span-columns(6);
 }
-.event-copy {
-  vertical-align: middle;
-  min-height: 406px;
-  height: 44vh;
-  width: 100%;
-  max-height: 742px;
-  background-position: center center;
-  background-size: cover;
-  vertical-align: middle;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  position: relative;
-  top: 0;
-  padding: 3em 0;
 
-  a {
-    color: white;
-  }
-
-    h1 {
-      font-size: 4em;
-      line-height: 1;
-      color: white;
-
-      @media screen and (max-width: $break-large) {
-        font-size: 3em;
-        }
-
-        @media screen and (max-width: $break-small) {
-          font-size: 2em;
-          }
-
-    }
-
-    h2 {
-      font-size: 1.6em;
-      color: white;
-    }
-}
 
 .event-meta {
     font-size: $small-font-size;
     color: $grey-color;
 }
 
-.influencer-events {
-  @include span-columns(4);
-  padding: 3em 0;
-  border-top: 1px solid #eee;
-
-  @media screen and (max-width: $break-small) {
-    width: 100%;
-    }
-}
-
-.influencer-list {
-  @include span-columns(12);
-  padding: 3em 0;
-  border-top: 1px solid #eee;
 
 
-  .influencer-individual {
-      @include span-columns(9);
-      margin: 0;
-      padding:2em 0px;
-      text-align: center;
-        border-bottom: 1px solid #eee;
 
-      @media screen and (max-width: $break-small) {
-        width: 100%;
-        }
 
-        .influencer-bio {
-          @include span-columns(6);
-          @include shift(1);
-          text-align: left;
 
-          @media screen and (max-width: $break-small) {
-            width: 100%;
-            margin: 0
-            }
-
-            p {
-              font-size: .9em;
-              margin: 10px 0;
-
-            }
-
-        }
-
-        img {
-          @include span-columns(4);
-
-          @media screen and (max-width: $break-small) {
-            float: none;
-            display: block;
-margin-right: 2.35765%;
-width: 100%;
-margin: 0 ;
-            }
-        }
-  }
 }
 
 
-.influencer-names {
-  @include span-columns(7);
-  @include shift(1);
-  padding: 3em 0;
-  border-top: 1px solid #eee;
 
-  @media screen and (max-width: $break-small) {
-    width: 100%;
-    margin: 0;
-
-    }
-
-.influencers {
-  display: inline-block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
-    margin: 0;
-    padding: 12px 12px 12px 0;
-
-
-
-
-      img {
-        padding: 10px 0;
-
-      }
-}
-}
 
 
 .archive-list {
@@ -433,10 +493,7 @@ margin: 0 ;
       font-size: 1.1em;
       margin-bottom: 0;
     }
-    .archive-date {
-      @include span-columns(2);
-        color: $text-color;
-    }
+
 
 }
 
@@ -444,126 +501,6 @@ margin: 0 ;
  * Posts
  */
 
- #user-tweets, #jordan-tweets, .user-tweets {
-   @include span-columns(6);
-
-   ul {
-     li {
-       margin: 1em 0;
-       padding: 1em 0;
-       border-bottom: 1px solid #eee;
-         &:last-child {
-           border-bottom: none;
-         }
-     }
-   }
-
-   .user {
-     img {
-       width: 20px;
-     }
-   }
-   p.tweet {
-       img {
-         width: 20px;
-       }
-   }
-
-   @media screen and (max-width: $break-large) {
-     width: 100%;
-     margin: 0;
-     }
- }
-
- .influencer-attending {
-     @include span-columns(6);
-     @media screen and (max-width: $break-large) {
-       width: 100%;
-       margin: 0;
-       }
-
-       h1 {
-
-         @media screen and (max-width: $break-small) {
-           font-size: 1.4em;
-           }
-
-       }
-
-
-       img {
-          @include span-columns(4);
-         margin-right: 0;
-         padding: 13px 0 0 13px;
-         @media screen and (max-width: $break-large) {
-           width: 100%;
-           padding: 13px 0;
-           }
-
-
-       }
-
-
- }
-
- .influencer-attending-content {
-    @include span-columns(6);
-
-    @media screen and (max-width: $break-large) {
-      width: 100%;
-      }
-
-      a {
-        margin: 1em 0;
-        display: block;
-      }
-
-      img {
-         @include span-columns(6);
-        margin-right: 0;
-        padding: 13px 0 0 13px;
-        @media screen and (max-width: $break-large) {
-          width: 100%;
-          padding: 13px 0;
-          }
-
-
-      }
- }
-
-
- .user-instas,.user-tweets, .event-tweets {
-   @include span-columns(6);
-
-   h1 {
-
-     @media screen and (max-width: $break-small) {
-       font-size: 1.4em;
-       }
-
-   }
-
-   @media screen and (max-width: $break-large) {
-     width: 100%;
-     margin: 0;
-     }
-     p {
-       font-size: .7em;
-     }
-
-   img {
-     @include span-columns(6);
-     margin-right: 0;
-     padding: 13px 0 0 13px;
-     @media screen and (max-width: $break-large) {
-       width: 100%;
-       padding: 13px 0;
-       }
-
-
-
-   }
- }
 
 
 
@@ -583,16 +520,7 @@ margin: 0 ;
     padding-top: 1em;
 }
 
-.event-city-page {
-    @include span-columns(5);
-    @include shift(1);
-    padding: 2em 0;
 
-    @media screen and (max-width: $break-large) {
-      width: 100%;
-      margin: 0;
-      }
-}
 
 .event-overview {
   @include outer-container;
@@ -604,45 +532,9 @@ margin: 0 ;
   padding-top: 2em;
 }
 
-.event-photos {
-  @include outer-container;
-  border-top: 1px solid #eee;
-  padding-top: 2em;
-
-    img {
-      display: inline;
-  width: 23.23176%;
-  padding: 12px 0 0 12px;
-
-@media screen and (max-width: $break-large) {
-  width: 100%;
-  margin: .1em 0;
-  }
-
-    }
-}
 
 
-.event-content {
-  @include span-columns(6);
-    margin-bottom: $spacing-unit;
-    padding: 3em 0 1em;
-    @media screen and (max-width: $break-large) {
-      width: 100%;
-      margin: 0;
-      }
 
-    h2 {
-      font-size:1.5em;
-      font-weight: 600;
-    }
-
-    h3 {
-      font-size:1.2em;
-
-    }
-
-}
 
 .pagination {
   @include outer-container;

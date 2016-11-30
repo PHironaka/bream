@@ -1,117 +1,88 @@
 ---
 layout: default
 ---
-
-<div class="event-copy" style="background-image: url({{ page.background-post-image }});" >
-  <div class="wrapper">
-
-      <div class="post-color" style=" background:{{page.background_color}};">
-
-      </div>
-      <h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
-
-  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-<h2><a class="archive-date" >{{ page.date | date: "%m.%d.%Y" }}</a></h2>
-    </div>
-</div>
+<div class="page-content--hero-image" style="background-image:url({{page.background-post-image}})">
 <div class="wrapper">
+<div class="page-content--color" style="background:{{page.background_color}}">
+</div>
+<h2> {{ page.city-name }} // <span>{{ page.tag }} </span></h2>
+<h1 class="page-content--title" itemprop="name headline">{{ page.title }}</h1>
+<h2><a class="page-content--date">{{ page.date | date: "%m.%d.%Y" }}</a></h2>
+</div>
+</div>
 
-  <div class="event-overview">
-
-  <div class="event-content" itemprop="articleBody">
-    {{ content }}
-
-
-    <div class="event-engagement">
-      <h3>Impressions: <span>{{ page.impressions }}</span> </h3>
-
-      <h3>City Page Views: <span>{{ page.city-page-views }} </span> </h3>
-
-      <h3>Engagment Rate: <span>{{ page.engagement-rate }}</span> </h3>
-
-      <h3>New Followers: <span> {{ page.new-followers }}</span> </h3>
-
-      <h3>Registrants through NET: <span> {{ page.net-registrants }}</span> </h3>
-
-      <h3>Total Attendees: <span> {{ page.attendees }}</span> </h3>
+<div class="wrapper">
+<div class="page-content--entry">
+<div class="page-content--analytics">
+{{ content }}
+<div class="page-content--analytics__engagement">
+<h3>Impressions: <span>{{ page.impressions }}</span> </h3>
+<h3>City Page Views: <span>{{ page.city-page-views }} </span> </h3>
+<h3>Engagment Rate: <span>{{ page.engagement-rate }}</span> </h3>
+<h3>New Followers: <span> {{ page.new-followers }}</span> </h3>
+<h3>Registrants through NET: <span> {{ page.net-registrants }}</span> </h3>
+<h3>Total Attendees: <span> {{ page.attendees }}</span> </h3>
 {% if page.snapchat-views %}
-      <h3>Total Snapchat Views: <span> {{ page.snapchat-views }}</span> </h3>
-  {% endif %}
+<h3>Total Snapchat Views: <span> {{ page.snapchat-views }}</span> </h3>
+{% endif %}
+</div>
+</div>
 
-    </div>
-      </div>
-
-<div class="event-city-page">
+<div class="page-content--entry__mobile">
 <img src="{{ page.city-page-mobile-asset }}">
 </div>
 </div>
 
-<div class="event-engagement">
-
-  <div class="influencer-attending">
-    <h1>Influencers in Attendence</h1>
+<div class="page-content--entry__attendence">
+<div class="page-content--entry__attendence__avatar">
+<h1>Influencers in Attendence</h1>
 {% for influencers in site.influencers %}
 {% if influencers.events.name contains page.title %}
-
-    <a href="/influencers"><img src="{{ influencers.image }}"></a>
-
-
+<a href="/influencers/{{influencers.title}}"><img src="{{ influencers.image }}"></a>
 {% endif %}
 {% endfor %}
 </div>
-<div class="influencer-attending-content">
+
+
+<div class="page-content--entry__attendence__content">
 {% for influencer-asset in page.influencer-asset %}
 <a href="{{ influencer-asset.url }}" target="_blank"> <img src="{{ influencer-asset.image }}"></a>
 {% endfor %}
-
-
 </div>
 </div>
 
-<div class="event-engagement">
-
-  <div class="user-tweets">
-    <h1>Consumer Sentiment</h1>
-  {% for asset in page.consumer-twitter-asset %}
-  <p> {{ asset }}</p>
+<div class="page-content--entry__attendence">
+<div class="page-content--entry__attendence__user-tweets">
+<h1>Consumer Sentiment</h1>
+{% for asset in page.consumer-twitter-asset %}
+<p> {{ asset }}</p>
 {% endfor %}
 </div>
 
-
-  <div class="user-tweets">
-    <h1>Top Performing Tweets </h1>
-    {{ page.top-tweet-embed-1 }}
-    <p> {{ page.top-tweet-1 }}</p>
-    {{ page.top-tweet-embed-2 }}
-    <p> {{ page.top-tweet-2 }}</p>
-    {{ page.top-tweet-embed-3 }}
-    <p> {{ page.top-tweet-3 }}</p>
+<div class="page-content--entry__attendence">
+<div class="page-content--entry__attendence__user-tweets">
+<h1>Top Performing Tweets </h1>
+{{ page.top-tweet-embed-1 }}
+<p> {{ page.top-tweet-1 }}</p>
+{{ page.top-tweet-embed-2 }}
+<p> {{ page.top-tweet-2 }}</p>
+{{ page.top-tweet-embed-3 }}
+<p> {{ page.top-tweet-3 }}</p>
+</div>
 </div>
 
+<div class="page-content--entry__attendence">
+  {% if page.local-team-asset %}
+<div class="page-content--entry__attendence__user-tweets">
+<h1>{{ page.local-team-headline }}</h1>
+<p> {{ page.local-team-asset }}</p>
 </div>
+{% endif %}
 
-
-  <div class="user-tweets">
-{% if page.local-team-asset %}
-
-  <h1>{{ page.local-team-headline }}</h1>
-  <p> {{ page.local-team-asset }}</p>
-  {% endif %}
-  </div>
-
-
-
-
-
-
-<div class="event-engagement">
-
-<div class="event-photos">
-  <h1>Event Photography </h1>
-
-  {% for photographer-assets in page.photographer-assets %}
+<div class="page-content--entry__attendence__event-photos">
+<h1>Event Photography </h1>
+{% for photographer-assets in page.photographer-assets %}
 <img src="{{ photographer-assets }}">
 {% endfor %}
 </div></div>
-
-  </div>
+</div>

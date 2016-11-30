@@ -3,27 +3,15 @@ layout: default
 ---
 
 <div class="wrapper">
-  {{ content }}
 
-<div class=" city">
-        <h1> Montly Analytics </h1>
+<div class="page-content--entry">
+<h1> Montly Analytics </h1>
+{{ content }}
+<div class="page-content--entry__monthly-analytics">
+{% for stats in site.stats %}
+<h1><a href="{{stats.url}}">{{ stats.title }}</a></h1>
+{% endfor %}
+</div>
+</div>
 
-        <div class="influencer-list">
-
-                    {% for stats in site.stats %}
-
-        <section class="influencer-individual">
-
-          <div class="influencer-bio">
-
-          <a href="{{stats.url}}" >{{ stats.title }}</a>
-
-          </div>
-
-              </section>
-
-
-                {% endfor %}
-          </div>
-  </div>
-  </div>
+</div>

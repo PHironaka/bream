@@ -1,25 +1,30 @@
 ---
 layout: default
 ---
-
 <div class="wrapper">
-  {{ content }}
+<div class="page-content--entry">
+<h1> Influencer Directory</h1>
+<section class="page-content--list">
+<div class="page-content--list__bio">
+<img src="{{ page.image }}">
+</div>
 
+<div class="influencer-bio">
+<h1>{{ page.title }}</h1>
+<p> {{page.content}}</p>
+<p> Instagram Followers: {{page.instagram}}</p>
+<p> City: {{page.city}}</p>
+<p> Relationship Owner: {{page.relationship_owner }}</p>
+<p> {{ page.title }}'s size: {{page.sizing }}</p>
+<p> Product Seeded: {{seeded_product }}</p>
+{% if page.city =='LA' %}
+<p> Events Attended:</p> <a href="/la/{{ page.events.name | slugify: 'pretty' | replace: '+', '-plus' }}">{{page.events.name}} </a>
+{% endif %}
+{% if page.city =='SF' %}
+<p> Events Attended:</p> <a href="/sf/{{ page.events.name | slugify: 'pretty' | replace: '+', '-plus' }}">{{page.events.name}} </a>
+{% endif %}
+</div>
 
-        <div class="influencer-names">
-                    <h3> Los Angeles Influencers</h3>
-
-                    {% for influencers in site.influencers %}
-                          {% if influencers.city  =='LA'   %}
-
-        <section class="influencers">
-          <a href="{{ influencers.url }}">{{ influencers.title }}</a>
-
-                        <img src="{{ influencers.image }}">
-              </section>
-
-
-                          {% endif %}
-                {% endfor %}
-          </div>
-  </div>
+</section>
+</div>
+</div>
